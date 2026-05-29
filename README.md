@@ -163,60 +163,23 @@ Os suprimentos são selecionados com base nas intervenções de maior impacto na
 ## Referências Bibliográficas
 
 ```bibtex
-@article{talavera2023,
-  author  = {Talavera et al.},
-  title   = {An autonomous ground robot to support firefighters
-             interventions in indoor environments},
-  journal = {Journal of Field Robotics},
-  year    = {2023}
-}
+## Referências Bibliográficas e Documentais
 
-@manual{cicv2006,
-  author    = {{Comitê Internacional da Cruz Vermelha (CICV)}},
-  title     = {Primeiros Socorros em Conflitos Armados e Outras
-               Situações de Violência},
-  number    = {ICRC 007/0870},
-  year      = {2006},
-  publisher = {CICV, Genebra, Suíça}
-}
+CHANG, Yen-Li Chain. **Manual de Medidas de Segurança e Procedimento de Primeiros Socorros no Acampamento Escoteiro**. Projeto da Insígnia de Madeira — Curso Avançado Ramo Escoteiro, GENSM 49-PR. 2015.
 
-@manual{chang2015,
-  author = {Chang, Yen-Li Chain},
-  title  = {Manual de Medidas de Segurança e Procedimento de
-            Primeiros Socorros no Acampamento Escoteiro},
-  note   = {Projeto da Insígnia de Madeira —
-            Curso Avançado Ramo Escoteiro, GENSM 49-PR},
-  year   = {2015}
-}
+CNN PORTUGAL. **Estudantes constroem robot que consegue aguentar temperaturas acima dos 530 graus**. Projeto FireBot. [S. l.], [s. d.].
 
-@article{sar_review,
-  title = {Safe Search and Rescue Operations Based on Autonomous Robots:
-           A Systematic Review of the General System Architecture},
-  note  = {Revisão Sistemática de Literatura em Robótica SAR}
-}
+COMITÊ INTERNACIONAL DA CRUZ VERMELHA (CICV). **Primeiros Socorros em Conflitos Armados e Outras Situações de Violência**. n. ICRC 007/0870. Genebra, Suíça: CICV, 2006.
 
-@techreport{desenvolvimento_robos,
-  title = {Desenvolvimento de Robôs de Resgate},
-  note  = {Documentação Técnica de Referência}
-}
+DESENVOLVIMENTO de Robôs de Resgate. *Documentação Técnica de Referência.* [S. l.: s. n., s. d.].
 
-@misc{firebot_cnn,
-  title  = {Estudantes constroem robot que consegue aguentar
-            temperaturas acima dos 530 graus},
-  author = {{CNN Portugal}},
-  note   = {Projeto FireBot}
-}
+EURONEWS. **Os robôs que ajudam os bombeiros italianos**. Projeto TRADR — Consórcio Europeu de Robótica de Resgate. [S. l.], [s. d.].
 
-@misc{tradr_euronews,
-  title  = {Os robôs que ajudam os bombeiros italianos},
-  author = {{Euronews}},
-  note   = {Projeto TRADR — Consórcio Europeu de Robótica de Resgate}
-}
+PEOPLE.CN. **Inovações em Robôs de Resgate e Transporte de Emergência**. [S. l.], [s. d.].
 
-@misc{people_cn,
-  author = {{People.cn}},
-  title  = {Inovações em Robôs de Resgate e Transporte de Emergência}
-}
+SAFE Search and Rescue Operations Based on Autonomous Robots: A Systematic Review of the General System Architecture. *Revisão Sistemática de Literatura em Robótica SAR.* [S. l.: s. n., s. d.].
+
+TALAVERA et al. An autonomous ground robot to support firefighters interventions in indoor environments. **Journal of Field Robotics**, 2023.
 ```
 
 ---
