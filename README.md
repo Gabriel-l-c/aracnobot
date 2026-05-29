@@ -109,7 +109,7 @@ A escolha de seis pernas é funcional, não estética. Plataformas hexápodes ap
   +-------------------------+
 ```
 
-O operador, em segurança, visualiza o ambiente por meio da câmera do robô, navega até a vítima e libera os suprimentos de APH. Se a vítima estiver consciente, o socorrista pode orientá-la remotamente por áudio sobre como aplicar torniquete, curativo compressivo ou cobertor térmico — seguindo os protocolos A-B-C-D-E do CICV — até a chegada da equipe de resgate ao local.
+O operador, em segurança, visualiza o ambiente por meio da câmera do robô, navega até a vítima e libera os suprimentos de APH. Se a vítima estiver consciente, o socorrista pode orientá-la, ou alguém próximo,  remotamente por áudio sobre como aplicar torniquete, curativo compressivo ou cobertor térmico — seguindo os protocolos A-B-C-D-E do CICV — até a chegada da equipe de resgate ao local.
 
 ---
 
