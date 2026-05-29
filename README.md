@@ -14,256 +14,151 @@
 
 ---
 
-## 📌 Visão Geral
+📌 Sobre o Projeto
+O ArachnoBot é uma proposta de Veículo Terrestre Não Tripulado (UGV) com morfologia hexápode, concebido para atuar como ferramenta de apoio em operações de resgate e primeiros socorros em ambientes hostis — locais onde a presença humana direta representa risco severo ou é simplesmente inviável.
+O projeto se situa na interseção de três campos:
 
-O **ArachnoBot Rescue** é um protótipo de **Veículo Terrestre Não Tripulado (UGV)** com morfologia hexápode, desenvolvido para operar em ambientes hostis onde a presença humana representa risco inaceitável. O projeto nasce da interseção entre **robótica de resgate**, **atendimento pré-hospitalar (APH)** e **engenharia de sistemas embarcados**.
+🤖 Robótica Móvel de Resgate — navegação autônoma e teleoperação em terrenos adversos
+⚕️ Atendimento Pré-Hospitalar (APH) — entrega de suprimentos médicos essenciais a vítimas isoladas
+🏗️ Engenharia de Sistemas Embarcados — plataforma de baixo custo e arquitetura aberta
 
-Inspirado nas referências abertas de plataformas hexápodes da comunidade open-source e fundamentado em protocolos humanitários internacionais (ICRC), o robô é capaz de:
 
-- 🔍 **Reconhecer** ambientes sinistrados por meio de câmeras e sensores de telemetria
-- 🏥 **Transportar** suprimentos essenciais de primeiros socorros até vítimas isoladas
-- 🗺️ **Transmitir dados** em tempo real para o centro de comando
+Este repositório documenta a proposta, fundamentação teórica e planejamento do projeto. O desenvolvimento do protótipo físico ainda não foi iniciado.
 
----
 
-## 🚨 Problema: A Lacuna da Hora de Ouro
+🚨 O Problema: A Lacuna na Hora de Ouro
+Em operações de Busca e Salvamento (SAR — Search and Rescue) e em intervenções em desastres — incêndios urbanos, colapsos estruturais, zonas de conflito — existe uma janela temporal crítica denominada "hora de ouro do trauma". Neste intervalo, intervenções simples de primeiros socorros como controle de hemorragia, abertura de vias aéreas e prevenção de hipotermia são determinantes para a sobrevivência.
+O problema é que as equipes de resgate humano são sistematicamente impedidas de acessar as vítimas neste período por fatores como:
+BarreiraExemplos ConcretosInstabilidade estruturalEdifícios colapsados, escombros, minasAltas temperaturasIncêndios urbanos, focos industriaisZonas de exclusão táticaProtocolos de segurança em conflitos armados e operações policiaisTopografia adversaMorros, becos, escadarias, regiões alagadas
 
-Em operações de Busca e Salvamento (SAR — *Search and Rescue*) e intervenções em desastres, existe uma janela crítica conhecida como **"hora de ouro do trauma"**. É neste intervalo que intervenções de primeiros socorros — como controle de hemorragia, abertura de vias aéreas e prevenção de choque — determinam a sobrevivência da vítima.
+"Mais de 50% dos civis feridos durante combates em centros urbanos precisam apenas receber os primeiros socorros — acrescidos de um simples antibiótico oral e um analgésico. Eles precisam apenas de cuidados imediatos e de um tratamento complementar de estabilização, e não ser hospitalizados."
+— CICV, Primeiros Socorros em Conflitos Armados e Outras Situações de Violência, 2006 (ICRC 007/0870)
 
-Contudo, as equipes de resgate humano são frequentemente **impedidas de acessar as vítimas** neste período por:
+O ArachnoBot propõe-se a preencher esta lacuna logística e temporal, projetando a capacidade de assistência do socorrista para dentro das zonas de exclusão antes ou durante o acesso humano.
 
-| Obstáculo | Exemplos |
-|-----------|----------|
-| **Instabilidade estrutural** | Edifícios colapsados, escombros |
-| **Altas temperaturas** | Incêndios urbanos, focos industriais |
-| **Protocolos de segurança** | Zonas quentes em conflitos e operações táticas |
-| **Topografia adversa** | Morros, becos, escadarias, áreas de difícil acesso |
+🎯 Objetivos
+Geral
+Desenvolver a proposta e, futuramente, um protótipo funcional de UGV hexápode voltado para reconhecimento de terreno e entrega remota de suprimentos de primeiros socorros em ambientes de difícil ou impossível acesso humano imediato.
+Específicos
 
-> *"Mais de 50% dos civis feridos em combates urbanos precisam apenas de primeiros socorros imediatos — torniquetes, curativos compressivos e estabilização — sem necessidade de hospitalização imediata."*  
-> — ICRC, *First Aid in Armed Conflicts*, 2006
+ Definir os requisitos mecânicos de uma plataforma hexápode capaz de transpor obstáculos urbanos típicos (escombros, degraus, terrenos irregulares)
+ Especificar a arquitetura de sensoriamento e telemetria (câmera, temperatura, IMU) para transmissão de dados em tempo real ao operador
+ Projetar um compartimento de carga adaptado ao transporte de suprimentos essenciais de APH
+ Elaborar a arquitetura de software para teleoperação e, em estágios futuros, navegação semiautônoma
+ Mapear protocolos de uso alinhados às diretrizes internacionais do CICV para primeiros socorros em ambientes hostis
+ Validar a proposta com foco em baixo custo de produção e potencial de escalabilidade
 
-O UGV proposto visa **preencher esta lacuna logística e temporal**, projetando recursos de APH para dentro das zonas de exclusão antes da chegada das equipes humanas.
 
----
+🔬 Fundamentação Teórica e Estado da Arte
+Robótica Autônoma em Suporte a Bombeiros (Ambientes Indoor)
+A inserção de UGVs para suporte a bombeiros em ambientes fechados já é uma realidade validada. Talavera et al. (2023) demonstraram, no Journal of Field Robotics, a eficácia de arquiteturas autônomas para auxiliar intervenções em locais com risco de colapso estrutural — realizando reconhecimento térmico e visual que os EPIs humanos não toleram por tempo suficiente. O estudo sustenta diretamente a premissa deste projeto: robôs terrestres podem ser a vanguarda segura de uma operação de resgate.
+Consciência Situacional e Mapeamento em Catástrofes
+Em situações de desastre, a telemetria é vital. O consórcio europeu TRADR (Euronews) demonstrou que drones terrestres com sensores a laser geram mapeamento 3D de zonas sinistradas em tempo real, fornecendo aos comandantes dados críticos antes de expor as equipes ao perigo. Esta capacidade de "ver sem estar" é um dos pilares funcionais do ArachnoBot.
+APH Tático e Entrega Logística de Resgate
+O desenvolvimento de robôs focados especificamente no transporte logístico de emergência — como os documentados em People.cn e no projeto FireBot (CNN Portugal, capaz de suportar temperaturas acima de 530°C) — evidencia a demanda global por sistemas mecânicos de entrega em zonas hostis. O ArachnoBot incorpora este conceito adaptado à realidade do APH: o robô não trata a vítima, mas entrega os meios para que ela possa receber ou aplicar os primeiros socorros sob orientação remota de um profissional.
+Protocolos Humanitários e APH em Campo
+O CICV (Comitê Internacional da Cruz Vermelha), no manual Primeiros Socorros em Conflitos Armados e Outras Situações de Violência (ICRC 007/0870, 2006), estabelece que a abordagem primária de uma vítima segue a sequência A-B-C-D-E (Vias aéreas, Respiração, Circulação, Incapacidade, Exposição). Os suprimentos transportados pelo ArachnoBot são selecionados para atender exatamente estas etapas críticas — especialmente o controle de hemorragia (C) e a proteção contra hipotermia (E).
+O Manual de Medidas de Segurança e Primeiros Socorros (Chang, 2015) complementa esta base, detalhando os materiais essenciais de uma caixa de primeiros socorros de campo e os procedimentos de atendimento inicial — referência direta para a especificação da carga útil do robô.
+Morfologia Hexápode para Terrenos Adversos
+A escolha de seis pernas não é estética — é funcional. Plataformas hexápodes apresentam redundância de locomoção (a falha de uma perna não paralisa o sistema), maior estabilidade estática em terrenos irregulares e capacidade de transpor obstáculos que inviabilizam plataformas rodadas. A comunidade open-source já documentou extensamente soluções de referência que fundamentarão a arquitetura mecânica deste projeto.
 
-## 🎯 Objetivos
+💡 Conceito de Operação
+  OPERADOR / SOCORRISTA
+  (zona segura)
+        │
+        │  Teleoperação via Wi-Fi / RF
+        │  Vídeo ao vivo + telemetria
+        ▼
+  ┌─────────────────────┐
+  │    ARACHNOBOT UGV   │
+  │  ┌───────────────┐  │
+  │  │  Câmera FPV   │  │
+  │  │  Sensores     │  │
+  │  │  Carga APH    │  │
+  │  └───────────────┘  │
+  │   6 pernas / servo  │
+  └─────────────────────┘
+        │
+        │  Navega pelo ambiente hostil
+        ▼
+  ┌─────────────────────┐
+  │    VÍTIMA ISOLADA   │
+  │  Recebe suprimentos │
+  │  Guiada remotamente │
+  │  pelo socorrista    │
+  └─────────────────────┘
+O operador, em segurança, visualiza o ambiente por meio da câmera do robô, navega até a vítima e libera os suprimentos de APH. Se a vítima estiver consciente, o socorrista pode orientá-la remotamente (por áudio) sobre como aplicar torniquete, curativo compressivo ou coberta térmica — seguindo os protocolos A-B-C-D-E do CICV — até a chegada da equipe de resgate ao local.
 
-### Geral
-Desenvolver um protótipo funcional de UGV hexápode voltado para reconhecimento de terreno e **entrega remota de suprimentos de primeiros socorros** em ambientes de difícil ou impossível acesso humano.
+🧰 Carga Útil Prevista — Kit de APH
+Os suprimentos são selecionados com base nas intervenções de maior impacto na "hora de ouro", conforme os protocolos do CICV e do Manual Chang (2015):
+SuprimentoFinalidadeBase ProtocolarTorniquete (CAT ou improviso)Controle de hemorragia em membrosCICV Sec. 6.1.3Bandagem de compressãoCurativo compressivo em ferimentosCICV Sec. 6.2.6 / Chang 14.1Máscara de ressuscitaçãoVentilação artificial boca-a-máscaraCICV Sec. 6.1.2 / Chang 4.2.1Curativos estéreis (P/M/G)Curativo de ferimentos abertosChang 2.2 / CICV Sec. 6.2.6Gaze hemostática + gazes secasControle de sangramentoCICV Sec. 6.1.3 / Chang 14.1Soro fisiológico (sachê)Limpeza de ferimentosChang 2.2 / 3.3.1Cobertor térmico (aluminizado)Prevenção de hipotermia e choqueCICV Sec. 6.1.5 / Chang 10
 
-### Específicos
+⚕️ Escopo de atuação: O robô realiza exclusivamente a entrega de suprimentos e transmissão de vídeo/áudio. A administração dos primeiros socorros é responsabilidade da vítima consciente, orientada remotamente por um profissional de saúde, ou das equipes que chegam posteriormente.
 
-- [ ] Projetar plataforma mecânica hexápode capaz de transpor **obstáculos urbanos** (escombros, degraus, terrenos irregulares)
-- [ ] Integrar **sensores de telemetria** (câmera, temperatura, acelerômetro) com transmissão de dados em tempo real
-- [ ] Desenvolver **compartimento de carga seguro** para suprimentos de APH (torniquetes, curativos hemostáticos, máscara de ressuscitação)
-- [ ] Validar a arquitetura com foco em **baixo custo** e escalabilidade
-- [ ] Documentar protocolos de operação alinhados com as diretrizes internacionais do ICRC
 
----
+🔗 Repositórios de Referência — Plataformas Hexápode Open Source
+O projeto se apoia na vasta literatura técnica open-source de robôs hexápodes para fundamentar suas escolhas de arquitetura:
+RepositórioRelevância para o Projetomithi/hexapodReferência principal de cinemática inversa e simulação visualMakeYourPet/hexapodDesign mecânico acessível e controle de servosrookidroid/hexapodImplementação embarcada de baixo custoSmallpTsai/7688-hexapodIntegração com plataformas IoT e comunicaçãoneuroprod/InsectRobotSimulationSimulação de locomoção bioinspiradaByteRyze/Hexapod_2Referência de hardware e estrutura físicaClimbSnail/HexapodRobot_STC15Firmware em microcontrolador de baixo custoJakobLeander/hexapodPlanejamento de trajetória e controle de marcha
 
-## 🔬 Fundamentação Técnica e Estado da Arte
-
-### Robótica de Resgate em Ambientes Indoor
-Estudos recentes demonstram a viabilidade de arquiteturas autônomas para suporte de bombeiros em ambientes fechados. **Talavera et al. (2023)** validaram sistemas de navegação autônoma capazes de operar em estruturas com risco de colapso, realizando reconhecimento térmico e visual que os EPIs humanos não tolerariam.
-
-### Mapeamento e Consciência Situacional
-O consórcio europeu **TRADR** (*Track-based Robot for Augmented Disaster Response*) demonstrou que drones terrestres equipados com LiDAR podem gerar mapas 3D de zonas sinistradas em tempo real, fornecendo dados críticos para comandantes de operações antes da exposição humana.
-
-### APH Tático e Logística de Resgate
-As diretrizes do **CICV (Comitê Internacional da Cruz Vermelha)** para primeiros socorros em conflitos armados e situações de violência estabelecem que a **velocidade de intervenção** é o fator determinante na sobrevivência. A entrega robótica de recursos de APH diretamente às vítimas — sem depender do acesso humano — representa um avanço significativo neste paradigma.
-
-### Plataformas Hexápode de Referência
-A morfologia hexápode é preferida em robótica de resgate pela sua **redundância de locomoção** (falha de uma perna não compromete o movimento), estabilidade em terrenos irregulares e capacidade de transpor obstáculos sem necessidade de rodas. Repositórios como [`mithi/hexapod`](https://github.com/mithi/hexapod), [`MakeYourPet/hexapod`](https://github.com/MakeYourPet/hexapod) e [`neuroprod/InsectRobotSimulation`](https://github.com/neuroprod/InsectRobotSimulation) documentam soluções open-source que fundamentam a arquitetura deste projeto.
-
----
-
-## 🏗️ Arquitetura do Sistema
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                   CENTRO DE COMANDO                     │
-│          (Interface Web / Joystick Remoto)              │
-└───────────────────────┬─────────────────────────────────┘
-                        │ Wi-Fi / RF
-┌───────────────────────▼─────────────────────────────────┐
-│                   PLACA CENTRAL                         │
-│              (Raspberry Pi / ESP32)                     │
-│  ┌─────────────┐  ┌──────────────┐  ┌───────────────┐  │
-│  │   Câmera    │  │  Controlador │  │  Módulo RF/   │  │
-│  │   + Visão   │  │  de Servos   │  │  Wi-Fi        │  │
-│  └─────────────┘  └──────────────┘  └───────────────┘  │
-└───────────────────────┬─────────────────────────────────┘
-                        │
-┌───────────────────────▼─────────────────────────────────┐
-│              PLATAFORMA MECÂNICA (6 PERNAS)             │
-│   ┌────────┐  ┌────────┐  ┌────────┐  ┌────────────┐   │
-│   │ Perna  │  │ Perna  │  │ Perna  │  │ Compartim. │   │
-│   │  1-2   │  │  3-4   │  │  5-6   │  │  de Carga  │   │
-│   └────────┘  └────────┘  └────────┘  └────────────┘   │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🧰 Carga Útil — Kit de APH
-
-O compartimento de carga é dimensionado para transportar os itens essenciais de **Atendimento Pré-Hospitalar** conforme os protocolos do ICRC:
-
-| Item | Finalidade | Referência ICRC |
-|------|-----------|----------------|
-| Torniquete CAT / improviso | Controle de hemorragia em membros | Sec. 6.1.3 |
-| Bandagem de compressão | Curativos em ferimentos | Sec. 6.2.6 |
-| Máscara de ressuscitação | Ventilação artificial boca-a-máscara | Sec. 4.2.1 |
-| Curativos estéreis (3 tamanhos) | Curativo de ferimentos | Sec. 3.3.1 |
-| Gaze hemostática | Controle de sangramento profuso | Sec. 6.1.3 |
-| Soro fisiológico | Limpeza de ferimentos / hidratação | Sec. 3.3.1 |
-| Cobertor térmico | Prevenção de hipotermia | Sec. 6.1.5 |
-
-> ⚕️ **Nota Operacional:** O robô realiza *entrega de suprimentos* — a administração dos primeiros socorros segue as instruções transmitidas remotamente por um socorrista qualificado para a vítima consciente, ou aguarda a chegada da equipe de resgate.
-
----
-
-## 🗂️ Estrutura do Repositório
-
-```
-arachnobot-rescue/
-├── 📁 hardware/
-│   ├── cad/              # Modelos 3D (STL/STEP) da estrutura hexápode
-│   ├── pcb/              # Esquemas eletrônicos e layouts de PCB
-│   └── bom.md            # Lista de materiais (Bill of Materials)
-├── 📁 firmware/
-│   ├── servo_control/    # Controle de servomotores e cinemática
-│   ├── sensors/          # Leitura de câmera, temperatura e IMU
-│   └── comms/            # Módulo de comunicação Wi-Fi/RF
-├── 📁 software/
-│   ├── dashboard/        # Interface web de controle remoto
-│   ├── navigation/       # Algoritmos de navegação e mapeamento
-│   └── vision/           # Processamento de imagem (detecção de vítimas)
-├── 📁 docs/
-│   ├── protocolo_aph.md  # Protocolos de APH para operadores
-│   ├── manual_operacao.md
-│   └── referencias/      # PDFs e artigos de referência
-├── 📁 simulations/       # Simulações de cinemática e terreno
-└── README.md
-```
-
----
-
-## 🚀 Como Começar
-
-### Pré-requisitos
-- Python 3.9+
-- ROS 2 (Humble ou superior) *— para navegação autônoma*
-- Arduino IDE / PlatformIO *— para firmware ESP32*
-- Impressora 3D *— para estrutura mecânica*
-
-### Instalação
-
-```bash
-# Clonar o repositório
-git clone https://github.com/seu-usuario/arachnobot-rescue.git
-cd arachnobot-rescue
-
-# Instalar dependências Python
-pip install -r requirements.txt
-
-# Compilar firmware (via PlatformIO)
-cd firmware
-pio run --target upload
-```
-
-### Simulação Rápida
-```bash
-# Executar simulação de cinemática hexápode
-cd simulations
-python hexapod_kinematics_sim.py
-```
-
----
-
-## 🤝 Projetos Hexápode de Referência (Open Source)
-
-Esta arquitetura é inspirada e fundamentada nas seguintes implementações de referência da comunidade:
-
-| Repositório | Contribuição Principal |
-|------------|----------------------|
-| [`mithi/hexapod`](https://github.com/mithi/hexapod) | Cinemática inversa e simulação visual |
-| [`MakeYourPet/hexapod`](https://github.com/MakeYourPet/hexapod) | Design mecânico e controle de servos |
-| [`rookidroid/hexapod`](https://github.com/rookidroid/hexapod) | Implementação embarcada |
-| [`SmallpTsai/7688-hexapod`](https://github.com/SmallpTsai/7688-hexapod) | Integração com plataforma IoT |
-| [`neuroprod/InsectRobotSimulation`](https://github.com/neuroprod/InsectRobotSimulation) | Simulação de locomoção de inseto |
-| [`ByteRyze/Hexapod_2`](https://github.com/ByteRyze/Hexapod_2) | Hardware e estrutura física |
-| [`ClimbSnail/HexapodRobot_STC15`](https://github.com/ClimbSnail/HexapodRobot_STC15) | Firmware em microcontrolador |
-| [`JakobLeander/hexapod`](https://github.com/JakobLeander/hexapod) | Controle e planejamento de trajetória |
-
----
-
-## 📚 Referências Bibliográficas
-
-```bibtex
-@article{talavera2023,
-  author    = {Talavera et al.},
-  title     = {An autonomous ground robot to support firefighters interventions in indoor environments},
-  journal   = {Journal of Field Robotics},
-  year      = {2023}
+📚 Referências Bibliográficas
+bibtex@article{talavera2023,
+  author  = {Talavera et al.},
+  title   = {An autonomous ground robot to support firefighters
+             interventions in indoor environments},
+  journal = {Journal of Field Robotics},
+  year    = {2023}
 }
 
-@manual{icrc2006,
+@manual{cicv2006,
   author    = {{Comitê Internacional da Cruz Vermelha (CICV)}},
-  title     = {Primeiros Socorros em Conflitos Armados e Outras Situações de Violência},
+  title     = {Primeiros Socorros em Conflitos Armados e Outras
+               Situações de Violência},
   number    = {ICRC 007/0870},
   year      = {2006},
-  publisher = {CICV — Genebra}
+  publisher = {CICV — Genebra, Suíça}
 }
 
 @manual{chang2015,
-  author    = {Chang Yen-Li Chain},
-  title     = {Manual de Medidas de Segurança e Procedimento de Primeiros Socorros no Acampamento Escoteiro},
-  note      = {Projeto da Insígnia de Madeira — Curso Avançado Ramo Escoteiro},
-  year      = {2015}
+  author = {Chang Yen-Li Chain},
+  title  = {Manual de Medidas de Segurança e Procedimento de
+            Primeiros Socorros no Acampamento Escoteiro},
+  note   = {Projeto da Insígnia de Madeira —
+            Curso Avançado Ramo Escoteiro, GENSM 49-PR},
+  year   = {2015}
 }
 
 @article{sar_review,
-  title     = {Safe Search and Rescue Operations Based on Autonomous Robots: A Systematic Review of the General System Architecture},
-  note      = {Revisão Sistemática de Literatura em Robótica SAR}
+  title = {Safe Search and Rescue Operations Based on Autonomous Robots:
+           A Systematic Review of the General System Architecture},
+  note  = {Revisão Sistemática de Literatura em Robótica SAR}
 }
 
 @techreport{desenvolvimento_robos,
-  title     = {Desenvolvimento de Robôs de Resgate},
-  note      = {Documentação Técnica Nacional}
+  title = {Desenvolvimento de Robôs de Resgate},
+  note  = {Documentação Técnica de Referência Nacional}
 }
-```
+Referências de Mídia e Projetos Afins
 
-### Referências Complementares
+FireBot — CNN Portugal: "Estudantes constroem robot que consegue aguentar temperaturas acima dos 530 graus"
+Projeto TRADR — Euronews: "Os robôs que ajudam os bombeiros italianos"
+People.cn — Inovações em Robôs de Resgate e Transporte de Emergência
 
-- **FireBot Project** — CNN Portugal: *"Estudantes constroem robot que consegue aguentar temperaturas acima dos 530 graus"*
-- **Projeto TRADR** — Euronews: *"Os robôs que ajudam os bombeiros italianos"* (Consórcio Europeu de Robótica de Resgate)
-- **People.cn** — *Inovações em Robôs de Resgate e Transporte de Emergência*
 
----
+🗺️ Próximos Passos (Roadmap)
+FaseDescriçãoStatusFase 0Proposta conceitual e levantamento bibliográfico✅ Em andamentoFase 1Especificação de requisitos e seleção de componentes📋 PlanejadoFase 2Projeto mecânico (CAD) e simulação de cinemática📋 PlanejadoFase 3Prototipagem da plataforma de locomoção📋 PlanejadoFase 4Integração de sensores e sistema de comunicação📋 PlanejadoFase 5Desenvolvimento da interface de teleoperação📋 PlanejadoFase 6Testes integrados e validação do protótipo📋 Planejado
 
-## 👥 Equipe e Contribuições
+👥 Contexto Acadêmico
+Este projeto é concebido no âmbito universitário com caráter multidisciplinar, reunindo áreas como:
 
-Este projeto é desenvolvido no contexto acadêmico universitário com caráter multidisciplinar, integrando competências de:
+Engenharia Mecânica — Projeto estrutural e cinemática da plataforma hexápode
+Engenharia Elétrica / Eletrônica — Sistemas embarcados, sensoriamento e energia
+Ciência da Computação — Comunicação, visão computacional e interface de controle
+Saúde / APH — Definição dos protocolos de primeiros socorros e especificação da carga útil
 
-- **Engenharia Mecânica** — Projeto estrutural, cinemática e fabricação
-- **Engenharia Eletrônica** — Sistemas embarcados e sensoriamento
-- **Ciência da Computação** — Visão computacional, navegação e interface
-- **Saúde / APH** — Protocolos de primeiros socorros e ergonomia da carga
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença **MIT**. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.
-
----
 
 <div align="center">
-
-**ArachnoBot Rescue** — Desenvolvido com 🔩 e ❤️ para salvar vidas  
-
-*"A segurança sempre em primeiro lugar — a sua própria, a das vítimas e a dos demais."*  
-— ICRC, Manual de Primeiros Socorros, 2006
-
+ArachnoBot — Uma proposta para levar socorro onde pessoas ainda não podem ir.
+"Prestar os primeiros socorros não significa somente fazer respiração artificial ou colocar um curativo.
+Significa também pegar na mão de alguém que está ferido."
+— CICV, 2006
 </div>
