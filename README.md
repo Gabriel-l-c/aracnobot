@@ -136,12 +136,12 @@ Os suprimentos são selecionados com base nas intervenções de maior impacto na
 | Fase | Descrição | Status |
 |------|-----------|--------|
 | Fase 0 | Proposta conceitual e levantamento bibliográfico | Em andamento |
-| Fase 1 | Especificação de requisitos e seleção de componentes | Planejado |
-| Fase 2 | Projeto mecânico (CAD) e simulação de cinemática | Planejado |
-| Fase 3 | Prototipagem da plataforma de locomoção | Planejado |
-| Fase 4 | Integração de sensores e sistema de comunicação | Planejado |
-| Fase 5 | Desenvolvimento da interface de teleoperação | Planejado |
-| Fase 6 | Testes integrados e validação do protótipo | Planejado |
+| Fase 1 | Especificação de requisitos e seleção de componentes |Não iniciado |
+| Fase 2 | Projeto mecânico (CAD) e simulação de cinemática | Não iniciado |
+| Fase 3 | Prototipagem da plataforma de locomoção | Não iniciado  |
+| Fase 4 | Integração de sensores e sistema de comunicação | Não iniciado  |
+| Fase 5 | Desenvolvimento da interface de teleoperação | Não iniciado  |
+| Fase 6 | Testes integrados e validação do protótipo | Não iniciado  |
 
 ---
 
