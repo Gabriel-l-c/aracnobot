@@ -160,9 +160,6 @@ Os suprimentos são selecionados com base nas intervenções de maior impacto na
 
 ---
 
-## Referências Bibliográficas
-
-```bibtex
 ## Referências Bibliográficas e Documentais
 
 CHANG, Yen-Li Chain. **Manual de Medidas de Segurança e Procedimento de Primeiros Socorros no Acampamento Escoteiro**. Projeto da Insígnia de Madeira — Curso Avançado Ramo Escoteiro, GENSM 49-PR. 2015.
@@ -180,7 +177,6 @@ PEOPLE.CN. **Inovações em Robôs de Resgate e Transporte de Emergência**. [S.
 SAFE Search and Rescue Operations Based on Autonomous Robots: A Systematic Review of the General System Architecture. *Revisão Sistemática de Literatura em Robótica SAR.* [S. l.: s. n., s. d.].
 
 TALAVERA et al. An autonomous ground robot to support firefighters interventions in indoor environments. **Journal of Field Robotics**, 2023.
-```
 
 ---
 
