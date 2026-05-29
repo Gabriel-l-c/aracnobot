@@ -2,8 +2,8 @@
 
 <div align="center">
 
-> *"Projetar a capacidade de assistência para dentro de ambientes hostis,*  
-> *substituindo a presença humana onde o risco é inaceitável."*
+> *"Os cientistas estudam o mundo como ele é; os engenheiros criam o mundo que nunca existiu."— Theodore von Kármán*  
+> *o mundo que nunca existiu."— Theodore von Kármán*
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](.)
 [![Licença](https://img.shields.io/badge/Licença-MIT-blue)](.)
