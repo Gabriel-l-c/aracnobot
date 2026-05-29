@@ -2,7 +2,7 @@
 
 <div align="center">
 
-> *"Os cientistas estudam o mundo como ele é; os engenheiros criam o mundo que nunca existiu."— Theodore von Kármán*  
+> *"Os cientistas estudam o mundo como ele é; os engenheiros criam*  
 > *o mundo que nunca existiu."— Theodore von Kármán*
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](.)
