@@ -15,7 +15,16 @@ O projeto se situa na interseção de três domínios:
 - **Atendimento Pré-Hospitalar (APH)** — entrega de suprimentos médicos essenciais a vítimas isoladas
 - **Engenharia de Sistemas Embarcados** — plataforma de baixo custo e arquitetura aberta
 
+### Areas Que Serão Estudadas e aplicados ara voce escolher:
+
+* **Sistemas Embarcados:** Programação e arquitetura de computação embarcada de tempo real (utilizando microcontroladores e microprocessadores). Foca-se no desenvolvimento do firmware de controlo central, gestão de interrupções, temporização e geração de sinais PWM (Pulse Width Modulation) coordenados para o acionamento síncrono dos 18 servomotores do robô.
+* **Redes de Comunicação e IoT:** Implementação de arquiteturas de rede sem fios (Wi-Fi e Radiofrequência) de baixa latência e alta resiliência para teleoperação em ambientes confinados. Inclui a especificação de protocolos de comunicação leves (como MQTT para telemetria estruturada e fluxos UDP) destinados ao envio de dados de sensores e à transmissão contínua (*streaming*) de vídeo em tempo real.
+* **Robótica Móvel e Cinemática:** Estudo de modelos matemáticos de cinemática inversa aplicados a geometrias bioinspiradas, planeamento de trajetórias de marcha (gait planning) para terrenos irregulares, e controlo em malha fechada utilizando dados de giroscópios e acelerómetros para a estabilização postural.
+* **Visão Computacional e Inteligência Artificial:** Integração de algoritmos de processamento digital de imagem e modelos otimizados de redes neuronais artificiais para a deteção automatizada de pessoas. O foco está na identificação de vítimas em cenários de visibilidade degradada por fumo, poeira ou baixa luminosidade.
+* **Eletrónica de Potência e Gestão Energética:** Desenho de circuitos de filtragem de ruído eletromagnético provocado pelos motores, dimensionamento de sistemas de regulação de tensão de alta corrente (circuitos BEC) e monitorização inteligente do ciclo de descarga das baterias para garantir a integridade dos componentes lógicos e de processamento.
+
 > Este repositório documenta a **proposta, fundamentação teórica e planejamento** do projeto. O desenvolvimento do protótipo físico está em fase de iniciação.
+> Apartir daqui e mais teórico : )
 
 ---
 
