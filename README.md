@@ -7,7 +7,14 @@
 
 ## Sobre o Projeto
 
-O **ArachnoBot** é uma proposta de **Veículo Terrestre Não Tripulado (UGV)** com morfologia hexápode, concebido para atuar como ferramenta de apoio em operações de primeiros socorros e segurança pública em **ambientes hostis** — locais onde a presença humana direta representa risco severo ou é temporariamente inviável.
+O **ArachnoBot** é uma proposta de **Veículo Terrestre Não Tripulado (UGV)** com morfologia hexápode. 
+
+Ele foi pensado a partir do cenário de uso atual de drones pela polícia da Grande Vitória. Com isso, uma ideia veio à mente: quais limitações os drones deles têm e como seria possível suprir essas limitações? 
+
+Como a parte de ações policiais possui conflitos éticos e de violência, optou-se pela área de primeiros socorros, que tem o mesmo apelo de necessidade de tecnologia, porém ainda não conta, por exemplo, com drones dedicados a isso. 
+
+Logo, ele foi concebido para atuar como ferramenta de apoio em operações de primeiros socorros, especialmente em locais onde a presença humana direta representa risco severo ou é temporariamente inviável.
+
 
 O projeto se situa na interseção de três domínios:
 
@@ -15,7 +22,7 @@ O projeto se situa na interseção de três domínios:
 - **Atendimento Pré-Hospitalar (APH)** — entrega de suprimentos médicos essenciais a vítimas isoladas
 - **Engenharia de Sistemas Embarcados** — plataforma de baixo custo e arquitetura aberta
 
-### Areas Que Serão Estudadas e aplicados ara voce escolher:
+### Areas Que São Trabalhadas :
 
 * **Sistemas Embarcados:** Programação e arquitetura de computação embarcada de tempo real (utilizando microcontroladores e microprocessadores). Foca-se no desenvolvimento do firmware de controlo central, gestão de interrupções, temporização e geração de sinais PWM (Pulse Width Modulation) coordenados para o acionamento síncrono dos 18 servomotores do robô.
 * **Redes de Comunicação e IoT:** Implementação de arquiteturas de rede sem fios (Wi-Fi e Radiofrequência) de baixa latência e alta resiliência para teleoperação em ambientes confinados. Inclui a especificação de protocolos de comunicação leves (como MQTT para telemetria estruturada e fluxos UDP) destinados ao envio de dados de sensores e à transmissão contínua (*streaming*) de vídeo em tempo real.
