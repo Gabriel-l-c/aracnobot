@@ -30,6 +30,14 @@ O projeto se situa na interseção de três domínios:
 * **Visão Computacional e Inteligência Artificial:** Integração de algoritmos de processamento digital de imagem e modelos otimizados de redes neuronais artificiais para a deteção automatizada de pessoas. O foco está na identificação de vítimas em cenários de visibilidade degradada por fumo, poeira ou baixa luminosidade.
 * **Eletrónica de Potência e Gestão Energética:** Desenho de circuitos de filtragem de ruído eletromagnético provocado pelos motores, dimensionamento de sistemas de regulação de tensão de alta corrente (circuitos BEC) e monitorização inteligente do ciclo de descarga das baterias para garantir a integridade dos componentes lógicos e de processamento.
 
+### Objetivos :
+* Movimentaçaõ: robo que consiga se locomover de forma "limpa", e se adaptar a perda de 1 perna caso algum motor quebre, simulacao em 3d do robo para apurar resultado e obter dados
+* Energia: Autonomia de 30min a 1h, placa personalizada  
+* Visão: identificacao de obstaculos, pessoas, tudo que envolva acidente etc.
+* Machine learning: algorithmo para auxiliar quem ira pilotar o robo a tomar decisoes voltadas a primeiros socorros
+* Firware : estrutura de sensores e comunicação com microcontrolador eficiente.
+
+
 > Este repositório documenta a **proposta, fundamentação teórica e planejamento** do projeto. O desenvolvimento do protótipo físico está em fase de iniciação.
 > Apartir daqui e mais teórico : )
 
