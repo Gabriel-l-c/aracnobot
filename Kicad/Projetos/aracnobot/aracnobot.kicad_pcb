@@ -87,14 +87,14 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Raspberry_Pi_Footprints:MODULE_RASPBERRY_PI_3_MODEL_B_"
+	(footprint "Raspberry_pi_4_B:MODULE_SRASPBERRY_PI_4_MODEL_B_"
 		(layer "F.Cu")
-		(uuid "614d9740-f297-4b4f-8d64-c6fc5a69d973")
-		(at 49.725 94.8 -90)
+		(uuid "4dbe5966-3206-4081-90c3-cdaa70d6733f")
+		(at 53.27 99.95 -90)
 		(property "Reference" "U1"
-			(at -39.575 -29.635 90)
+			(at -37.325 -29.635 90)
 			(layer "F.SilkS")
-			(uuid "a0ecc164-e064-4a90-bc0e-789621341824")
+			(uuid "88c7c756-717c-4711-9a1d-4d0fd1111772")
 			(effects
 				(font
 					(size 1 1)
@@ -102,10 +102,10 @@
 				)
 			)
 		)
-		(property "Value" "RASPBERRY_PI_3_MODEL_B_"
-			(at -23.7 31.135 90)
+		(property "Value" "SC0195_9_"
+			(at -30.54 29.965 90)
 			(layer "F.Fab")
-			(uuid "9e86103a-8e12-415e-ab92-c41d2d360675")
+			(uuid "df63a66d-1723-4363-8553-4f09886d7ff6")
 			(effects
 				(font
 					(size 1 1)
@@ -117,18 +117,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27a437ed-a5a5-4738-aa1c-c35adb86eeaa")
+			(uuid "9457c947-104c-4df7-b3f8-4ffd281f9b51")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Single Board Computer, Model B+ 1GB RAM,Raspberry Pi 3 Series | Raspberry Pi RASPBERRY PI 3 MODEL B+"
+		(property "Description" "The Raspberry Pi 4 Model B SC0195-9 single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 processor with 1.5GHz speed and four cores, making it ideal for demanding embedded computing applications. With 8GB of RAM and a compact size of 3.346 x 2.205, this SBC offers robust performance in a small footprint. It includes 40 digital I/O lines, GbE Ethernet, and multiple USB ports (two USB 2.0 and two USB 3.0), providing versatile connectivity options. Additionally, it supports video outputs such as CSI, DSI, and HDMI, making it suitable for a wide range of multimedia projects."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b250e231-48ae-4d63-8066-6dcd7967128d")
+			(uuid "5d0d3250-1f3d-457a-bbf1-e57d2a5b6cf5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +140,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a51b2e8-1b4b-4bb3-8e78-0ed975d077d2")
+			(uuid "92c7d5cc-00e3-478d-8dca-e5d3b9d4a900")
 			(effects
 				(font
 					(size 1 1)
@@ -148,25 +148,12 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
+		(property "Package" "None"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e164e0fc-7da1-4510-a93d-ec2f102f2a73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "Raspberry Pi"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fef13c6c-6ad2-46e9-9cd2-2be073fd1208")
+			(uuid "da6ad466-9a99-4fb0-a3ce-fa6c82be0a9f")
 			(effects
 				(font
 					(size 1 1)
@@ -179,7 +166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea224fe7-ce47-4d08-8bcf-8c87248087bd")
+			(uuid "0431b69b-bd8a-45eb-aa8d-680156ae3afd")
 			(effects
 				(font
 					(size 1 1)
@@ -187,12 +174,25 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=eda"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b52c259c-737f-474e-b0e2-410ff82beeb9")
+			(uuid "e21ddf54-e8f8-440c-855b-6a3d892ae6ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "18mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4c08b8b-9dcb-4e32-800d-d8908c8175af")
 			(effects
 				(font
 					(size 1 1)
@@ -205,7 +205,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f42de937-7b86-4112-93d0-1c62079f2448")
+			(uuid "314a5f71-6a19-4947-bbec-932720e0e522")
 			(effects
 				(font
 					(size 1 1)
@@ -213,12 +213,12 @@
 				)
 			)
 		)
-		(property "PARTREV" "N/A"
+		(property "PARTREV" "1.0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "747d2a60-4458-4048-96f0-55b68113fec8")
+			(uuid "55c2113a-f2d3-4ae7-9b16-9faca3f33afd")
 			(effects
 				(font
 					(size 1 1)
@@ -226,12 +226,12 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=snap"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e29f8dc-7325-47e0-8b2c-cc9d35e50fe9")
+			(uuid "858ba864-e84c-4a19-adde-9f74b1eef595")
 			(effects
 				(font
 					(size 1 1)
@@ -239,25 +239,12 @@
 				)
 			)
 		)
-		(property "MP" "RASPBERRY PI 3 MODEL B+"
+		(property "MP" "SC0195(9)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02663036-12c5-47b4-ad13-1824159be5e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SNAPEDA_PN" "RASPBERRY PI 3 MODEL B+"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8169c570-c458-49c7-adf0-8aea01b88255")
+			(uuid "539f99d8-2fa9-4666-997b-37c880e8b9d4")
 			(effects
 				(font
 					(size 1 1)
@@ -270,7 +257,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e5be76e-a050-4fac-a3e6-0e7cad66a1ca")
+			(uuid "4153b732-7906-46c8-9c44-e8b9a83bc7a3")
 			(effects
 				(font
 					(size 1 1)
@@ -283,7 +270,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d94eb0d-9688-46ae-bd25-0411e952c787")
+			(uuid "9bacbe54-437f-4b44-a27d-7ad965a95071")
 			(effects
 				(font
 					(size 1 1)
@@ -291,16 +278,16 @@
 				)
 			)
 		)
-		(path "/91b344a9-2426-4a03-8cd9-c95fd97f8d35")
+		(path "/3a916a26-2957-4c32-9fca-b20ba5f2280f")
 		(sheetname "/")
 		(sheetfile "aracnobot.kicad_sch")
 		(units
 			(unit
 				(name "A")
 				(pins "3" "5" "7" "11" "13" "12" "15" "16" "18" "22" "24" "26" "23" "19"
-					"21" "27" "28" "2" "4" "1" "17" "8" "10" "29" "31" "32" "33" "36" "35"
-					"38" "40" "37" "42" "41" "44" "43" "S4" "S3" "S2" "S1" "39" "34" "30"
-					"25" "20" "14" "9" "6"
+					"21" "27" "28" "2" "4" "17" "1" "8" "10" "29" "31" "32" "33" "36" "35"
+					"38" "40" "37" "S2" "S1" "S3" "S4" "34" "30" "39" "6" "25" "9" "14"
+					"20"
 				)
 			)
 		)
@@ -314,7 +301,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1cc5afb-cab0-4fb0-ab6f-4db04eecf5f5")
+			(uuid "bee5e87e-9fd1-4992-a181-15c0c5570879")
 		)
 		(fp_line
 			(start 42.5 25)
@@ -324,7 +311,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cf4711cf-b2e8-4071-bbbf-b1cdb253be86")
+			(uuid "f0f925f3-28d6-4ffc-97c8-2df10bb0dd19")
 		)
 		(fp_line
 			(start -42.5 -25)
@@ -334,7 +321,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05e7bfd5-57d1-468e-ac0f-1a6995e774f9")
+			(uuid "90d3c9ce-c0c9-4186-8681-db7f4ba09742")
 		)
 		(fp_line
 			(start 39.5 -28)
@@ -344,7 +331,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9e7c9f9e-3fe9-4098-91d1-4f847a344a1c")
+			(uuid "33cc314b-99da-4b7f-b885-d5939c163cb0")
 		)
 		(fp_arc
 			(start -39.5 28)
@@ -355,7 +342,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5311000-a1ed-4d66-854f-0ac86b83e485")
+			(uuid "62b0af24-eb3d-416c-b2d1-52792dbe04a1")
 		)
 		(fp_arc
 			(start 42.5 25)
@@ -366,7 +353,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f94e09a7-6ca1-4012-a52d-6275322600a4")
+			(uuid "df2b762f-a3c4-44e8-b29a-8ba51239abd2")
 		)
 		(fp_arc
 			(start -42.5 -25)
@@ -377,7 +364,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5efe8c3d-8f7b-4d8f-b299-b84541603ab3")
+			(uuid "ef47995a-fd88-4a8d-aec0-3901cd19604c")
 		)
 		(fp_arc
 			(start 39.5 -28)
@@ -388,38 +375,38 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be684467-b1ea-44f2-b6b1-b65da5fb3628")
+			(uuid "16309273-9878-4a73-8fe2-81f2e153b833")
 		)
 		(fp_circle
 			(center -43.4 -23)
-			(end -43.2 -23)
+			(end -43.3 -23)
 			(stroke
-				(width 0.4)
+				(width 0.2)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a34918ff-2dce-40b2-96e9-b0fe37717a03")
+			(uuid "b2510791-7810-4348-92d2-1486259dc9cf")
 		)
 		(fp_line
-			(start -42.75 30.255)
+			(start -42.75 30.75)
 			(end -42.75 -28.25)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "49a6f44d-708a-49fb-aaaf-65ddc2d5f852")
+			(uuid "06a41fc7-c994-4cf2-9fe6-1c164b8715d4")
 		)
 		(fp_line
-			(start 45.25 30.255)
-			(end -42.75 30.255)
+			(start 45.25 30.75)
+			(end -42.75 30.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "119c4418-c223-4516-bc96-5ed458441231")
+			(uuid "401c01c4-8404-4433-8911-0c8f4587d0de")
 		)
 		(fp_line
 			(start -42.75 -28.25)
@@ -429,17 +416,17 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a5dd8c9f-9d80-4587-baf9-b487729e3eac")
+			(uuid "8d3e4dce-61e0-4500-b4ed-dacdc22a3273")
 		)
 		(fp_line
 			(start 45.25 -28.25)
-			(end 45.25 30.255)
+			(end 45.25 30.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9d73dd3d-030d-48b8-a631-47f9f051397e")
+			(uuid "824f72d1-309c-40bc-ac24-e3a6d1adb97a")
 		)
 		(fp_line
 			(start -39.5 28)
@@ -449,7 +436,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cc5e9443-58ce-4a26-bf87-2d685180ba86")
+			(uuid "86ab123b-e519-47bb-942e-bd8b2111a3c5")
 		)
 		(fp_line
 			(start 23.5 25.5)
@@ -459,7 +446,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7ea35827-1d52-4b00-9f80-eaa402c859fc")
+			(uuid "72d89d2e-104f-444b-b10c-fccc0de68d09")
 		)
 		(fp_line
 			(start 45 25.5)
@@ -469,7 +456,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "68c16c1d-c44e-45b7-b432-1e06f171a7c1")
+			(uuid "f8db0e44-ec6d-4fd0-a802-b90f774559a0")
 		)
 		(fp_line
 			(start 42.5 25)
@@ -479,7 +466,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04574cba-6656-45b3-ab4a-a4d6abae6b07")
+			(uuid "c8fe1080-c099-4783-9794-cbfb0c116593")
 		)
 		(fp_line
 			(start -42.5 -25)
@@ -489,7 +476,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4db05118-719b-4826-a519-82417834490b")
+			(uuid "d130e51b-7955-4822-9d5a-44a6fd01e145")
 		)
 		(fp_line
 			(start 23.5 -25.5)
@@ -499,7 +486,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3d1869cc-4edd-4b6e-85de-334836238f26")
+			(uuid "c4b8d2ef-824b-4084-a561-5c382aa98d04")
 		)
 		(fp_line
 			(start 45 -25.5)
@@ -509,7 +496,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cacc3545-b570-4f12-9be7-45f385474852")
+			(uuid "7db35101-5d43-405e-9aa9-26bf137d42c7")
 		)
 		(fp_line
 			(start 39.5 -28)
@@ -519,7 +506,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dae620f7-bdbe-4ee8-ae87-1df0559e7aea")
+			(uuid "4b7ba800-b445-4861-8399-c8fede749753")
 		)
 		(fp_arc
 			(start -39.5 28)
@@ -530,7 +517,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8900418a-00fb-4b88-a1ca-2026e700139e")
+			(uuid "d954be9b-11c6-48d8-b7f7-cbaea2e5219d")
 		)
 		(fp_arc
 			(start 42.5 25)
@@ -541,7 +528,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9a4364e7-f0bf-4766-88ff-99e52b3955e2")
+			(uuid "e3507c73-b58d-4ba9-bf7f-c747e812bff9")
 		)
 		(fp_arc
 			(start -42.5 -25)
@@ -552,7 +539,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e35b7cc7-8c28-4e5d-9a1a-4d4772c816a2")
+			(uuid "ad3a5ae1-8663-468c-bb83-f11f57c75d78")
 		)
 		(fp_arc
 			(start 39.5 -28)
@@ -563,18 +550,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f2100bfb-d258-4321-be89-86bc837d0754")
+			(uuid "b94066ab-415a-49f0-9b19-4144aca7bd4e")
 		)
 		(fp_circle
 			(center -43.4 -23)
-			(end -43.2 -23)
+			(end -43.3 -23)
 			(stroke
-				(width 0.4)
+				(width 0.2)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a947d4e9-1820-45e4-8471-a662f26f083f")
+			(uuid "5f3506ce-4396-4fee-a19f-1eca72eb3010")
 		)
 		(pad "1" thru_hole rect
 			(at -34.13 -23.23 270)
@@ -586,7 +573,7 @@
 			(pinfunction "3V3_1")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "7b804150-5404-4812-91a3-e643e649ace6")
+			(uuid "c16e6984-509a-4b19-bc17-7567fbf1ac8b")
 		)
 		(pad "2" thru_hole circle
 			(at -34.13 -25.77 270)
@@ -594,11 +581,11 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "5V")
-			(pinfunction "5V_2")
+			(net "5V0")
+			(pinfunction "5V0_2")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "03af92f2-5356-4624-8c54-d9453b5ed531")
+			(uuid "5ec46fe9-f9e5-4860-969a-6507f17bbe24")
 		)
 		(pad "3" thru_hole circle
 			(at -31.59 -23.23 270)
@@ -610,7 +597,7 @@
 			(pinfunction "GPIO2/SDA1_3")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "c0048195-5b5c-432c-a2dc-d9b8a75337aa")
+			(uuid "1d4f77a8-438b-4cff-aa59-248c92c4ba74")
 		)
 		(pad "4" thru_hole circle
 			(at -31.59 -25.77 270)
@@ -618,11 +605,11 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "5V")
-			(pinfunction "5V_4")
+			(net "5V0")
+			(pinfunction "5V0_4")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "400d0c71-4284-4f19-9478-332c11aa16a9")
+			(uuid "5266b107-7fa9-4473-9bb8-79ae0532d37b")
 		)
 		(pad "5" thru_hole circle
 			(at -29.05 -23.23 270)
@@ -634,7 +621,7 @@
 			(pinfunction "GPIO3/SCL1_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "12c52fa9-a7f8-4989-900b-93957caca93c")
+			(uuid "1708287e-9c72-4a98-9bec-b019869de5c9")
 		)
 		(pad "6" thru_hole circle
 			(at -29.05 -25.77 270)
@@ -646,7 +633,7 @@
 			(pinfunction "GND_6")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "d177f24c-a25b-4951-b760-9b63bf4982bf")
+			(uuid "b7f04168-de52-4a7f-bdb5-c89513b86a11")
 		)
 		(pad "7" thru_hole circle
 			(at -26.51 -23.23 270)
@@ -658,7 +645,7 @@
 			(pinfunction "GPIO4/GPIO_GCKL_7")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "d6178887-fe58-4927-bd27-3dd6a6a70a6c")
+			(uuid "c78fa18c-2032-45c3-9bca-d2d2b758f56c")
 		)
 		(pad "8" thru_hole circle
 			(at -26.51 -25.77 270)
@@ -666,11 +653,11 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO14{slash}TXD0-Pad8)")
-			(pinfunction "GPIO14/TXD0_8")
+			(net "unconnected-(U1-TXD0{slash}GPIO14-Pad8)")
+			(pinfunction "TXD0/GPIO14_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "55c3f592-2d76-45ca-8bd1-287c2d6c60ef")
+			(uuid "3dc3ac12-bdad-45e7-8a70-fce3a07897a1")
 		)
 		(pad "9" thru_hole circle
 			(at -23.97 -23.23 270)
@@ -682,7 +669,7 @@
 			(pinfunction "GND_9")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "0eb3d918-c5fc-49ff-9b0d-70f866761c0b")
+			(uuid "4d448d09-c910-4b70-9875-3753cf2f5bf7")
 		)
 		(pad "10" thru_hole circle
 			(at -23.97 -25.77 270)
@@ -690,11 +677,11 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-GPIO15{slash}RXD0-Pad10)")
-			(pinfunction "GPIO15/RXD0_10")
+			(net "unconnected-(U1-RXD0{slash}GPIO15-Pad10)")
+			(pinfunction "RXD0/GPIO15_10")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "2759136f-a1b4-4361-bd55-e0b2ee091fad")
+			(uuid "f38b41ec-086c-4f51-8c44-f484c850bb3e")
 		)
 		(pad "11" thru_hole circle
 			(at -21.43 -23.23 270)
@@ -706,7 +693,7 @@
 			(pinfunction "GPIO17/GPIO_GEN0_11")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "fa177ead-fc9e-4eb1-94d7-c7f20e27e1be")
+			(uuid "b11a16c8-b358-456b-b0f9-b635acdbe5b1")
 		)
 		(pad "12" thru_hole circle
 			(at -21.43 -25.77 270)
@@ -718,7 +705,7 @@
 			(pinfunction "GPIO18/GPIO_GEN1_12")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "87f2867f-6ef0-438a-a088-8ea149d0fbcf")
+			(uuid "9c59e86c-a4c4-4796-a59d-cfbe39882d6c")
 		)
 		(pad "13" thru_hole circle
 			(at -18.89 -23.23 270)
@@ -730,7 +717,7 @@
 			(pinfunction "GPIO27/GPIO_GEN2_13")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "8fbb6ef3-577c-46ca-b75e-0f5e50d2861e")
+			(uuid "7bcaba37-540c-49aa-8b1d-0753320b2648")
 		)
 		(pad "14" thru_hole circle
 			(at -18.89 -25.77 270)
@@ -742,7 +729,7 @@
 			(pinfunction "GND_14")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "233de782-0758-4a49-94d7-9173087e3c4d")
+			(uuid "b99a057d-3899-44fe-ace0-722f656c87f1")
 		)
 		(pad "15" thru_hole circle
 			(at -16.35 -23.23 270)
@@ -754,7 +741,7 @@
 			(pinfunction "GPIO22/GPIO_GEN3_15")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "93ac4dcb-481e-4fd1-9a1a-aff4cc59cbca")
+			(uuid "a09a1de1-721b-4fe1-a7bf-2c047c536170")
 		)
 		(pad "16" thru_hole circle
 			(at -16.35 -25.77 270)
@@ -766,7 +753,7 @@
 			(pinfunction "GPIO23/GPIO_GEN4_16")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "39f6d659-8900-4082-9a63-a9e4c3fdd105")
+			(uuid "6821e541-157a-44cf-87a2-8eea41472918")
 		)
 		(pad "17" thru_hole circle
 			(at -13.81 -23.23 270)
@@ -778,7 +765,7 @@
 			(pinfunction "3V3_17")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "fb081262-da6f-4a11-92e5-f67905786a62")
+			(uuid "e8d701a1-9c2e-4951-a5ce-ed73defc141d")
 		)
 		(pad "18" thru_hole circle
 			(at -13.81 -25.77 270)
@@ -790,7 +777,7 @@
 			(pinfunction "GPIO24/GPIO_GEN5_18")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "c324f796-d49f-4d35-a4c1-5ce05598ec93")
+			(uuid "b9905258-11ea-4264-ac73-10e987142dd7")
 		)
 		(pad "19" thru_hole circle
 			(at -11.27 -23.23 270)
@@ -802,7 +789,7 @@
 			(pinfunction "GPIO10/SPI_MOSI_19")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "70609e31-e212-4e12-8bb8-0f4391df0beb")
+			(uuid "b37fcf70-84b5-478b-b87f-9d489011b3c1")
 		)
 		(pad "20" thru_hole circle
 			(at -11.27 -25.77 270)
@@ -814,7 +801,7 @@
 			(pinfunction "GND_20")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "b9e8e42c-0497-47bd-aa74-64962d9989de")
+			(uuid "9069a2cf-c8fe-44aa-b7c9-f0c509b5a286")
 		)
 		(pad "21" thru_hole circle
 			(at -8.73 -23.23 270)
@@ -826,7 +813,7 @@
 			(pinfunction "GPIO9/SPI_MISO_21")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "c7d7223a-ea89-4304-9102-2df61d9b068e")
+			(uuid "fe55b8f0-8b9e-43d4-9689-d5e00c0bbcc4")
 		)
 		(pad "22" thru_hole circle
 			(at -8.73 -25.77 270)
@@ -838,7 +825,7 @@
 			(pinfunction "GPIO25/GPIO_GEN6_22")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "66d60629-cd2d-4624-8642-fdf3ecb1a80e")
+			(uuid "579eaf2f-5d7c-424e-9a21-da384086c97a")
 		)
 		(pad "23" thru_hole circle
 			(at -6.19 -23.23 270)
@@ -850,7 +837,7 @@
 			(pinfunction "GPIO11/SPI_SCLK_23")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "cfdccf0b-e773-4421-a4ad-68abd1908372")
+			(uuid "095e508a-5942-4eb2-ba60-e16cda2c4c32")
 		)
 		(pad "24" thru_hole circle
 			(at -6.19 -25.77 270)
@@ -862,7 +849,7 @@
 			(pinfunction "GPIO8/~{SPI_CE0}_24")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "57ce50bb-cdcb-47b1-94e3-eebcf7c79fe2")
+			(uuid "9ea909af-ef7f-4982-a3dd-90f115df1bff")
 		)
 		(pad "25" thru_hole circle
 			(at -3.65 -23.23 270)
@@ -874,7 +861,7 @@
 			(pinfunction "GND_25")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "e0ff81f4-5ed5-4cfa-8ce4-3ad2ae3f43bf")
+			(uuid "3d772195-1dbb-4d91-a785-fd0451b2909c")
 		)
 		(pad "26" thru_hole circle
 			(at -3.65 -25.77 270)
@@ -886,7 +873,7 @@
 			(pinfunction "GPIO7/~{SPI_CE1}_26")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "fb55d390-2828-41e8-b663-f5800fc961fd")
+			(uuid "f85d2561-ae4b-41f5-b3f9-7b665062dc89")
 		)
 		(pad "27" thru_hole circle
 			(at -1.11 -23.23 270)
@@ -898,7 +885,7 @@
 			(pinfunction "ID_SD_27")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "9f523055-dd88-46bd-a03d-57a888089eaf")
+			(uuid "f9155f03-f1a0-44a2-8891-cd5ae7a71a8a")
 		)
 		(pad "28" thru_hole circle
 			(at -1.11 -25.77 270)
@@ -910,7 +897,7 @@
 			(pinfunction "ID_SC_28")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "157738fe-f74b-42c3-8c8b-3b9dd4ca53eb")
+			(uuid "c655ff28-5c3b-4e48-8469-8d541a7b8fb5")
 		)
 		(pad "29" thru_hole circle
 			(at 1.43 -23.23 270)
@@ -922,7 +909,7 @@
 			(pinfunction "GPIO5_29")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "cccdd572-1a1b-45a3-9662-a5c4bd5bfcd1")
+			(uuid "5d5433d6-3c9e-47a3-ad83-422ac54e21fd")
 		)
 		(pad "30" thru_hole circle
 			(at 1.43 -25.77 270)
@@ -934,7 +921,7 @@
 			(pinfunction "GND_30")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "7146f812-abe5-4a54-8ad7-1c82c6ef77b0")
+			(uuid "b5f72e5e-a0ce-4c22-a594-c549081c0d4a")
 		)
 		(pad "31" thru_hole circle
 			(at 3.97 -23.23 270)
@@ -946,7 +933,7 @@
 			(pinfunction "GPIO6_31")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "4ea74e45-fa56-4963-8e19-92d196964f79")
+			(uuid "76daf85b-3f7e-479a-9322-2c96839dd65e")
 		)
 		(pad "32" thru_hole circle
 			(at 3.97 -25.77 270)
@@ -958,7 +945,7 @@
 			(pinfunction "GPIO12_32")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "ec4ec8f9-d628-4996-a04f-806ebb78c52f")
+			(uuid "43515577-26c9-4101-b1b2-7f3d28a50994")
 		)
 		(pad "33" thru_hole circle
 			(at 6.51 -23.23 270)
@@ -970,7 +957,7 @@
 			(pinfunction "GPIO13_33")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "3dff769a-1ee1-4f32-8980-a7e22c66e0ca")
+			(uuid "680f12e2-a916-48b2-af0d-cdff0065146f")
 		)
 		(pad "34" thru_hole circle
 			(at 6.51 -25.77 270)
@@ -982,7 +969,7 @@
 			(pinfunction "GND_34")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "d45ff869-939e-4421-9a63-6f2a19c556cc")
+			(uuid "ccd1e325-766e-4696-ad49-238fbb15ed85")
 		)
 		(pad "35" thru_hole circle
 			(at 9.05 -23.23 270)
@@ -994,7 +981,7 @@
 			(pinfunction "GPIO19_35")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "e53756a8-4dd4-497e-9865-43395b0b3787")
+			(uuid "4acb12fb-81f6-44e9-a730-b259f0af3cee")
 		)
 		(pad "36" thru_hole circle
 			(at 9.05 -25.77 270)
@@ -1006,7 +993,7 @@
 			(pinfunction "GPIO16_36")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "8125cd95-a73b-4b46-9527-bba5f7aed5aa")
+			(uuid "8dd261e5-d0cc-4747-94e1-fcb2cf59f47c")
 		)
 		(pad "37" thru_hole circle
 			(at 11.59 -23.23 270)
@@ -1018,7 +1005,7 @@
 			(pinfunction "GPIO26_37")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "baa147c7-56a9-4faa-a148-f2a8004e62da")
+			(uuid "fa19057b-f759-4e05-b2fa-5ff7e4abd42b")
 		)
 		(pad "38" thru_hole circle
 			(at 11.59 -25.77 270)
@@ -1030,7 +1017,7 @@
 			(pinfunction "GPIO20_38")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "21b75488-d102-449e-abf1-1b7cd23710a6")
+			(uuid "d3578d41-1f2b-4110-90ee-a85867ab8713")
 		)
 		(pad "39" thru_hole circle
 			(at 14.13 -23.23 270)
@@ -1042,7 +1029,7 @@
 			(pinfunction "GND_39")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "1fb044bf-f335-4aa6-8619-b788c1c02e6f")
+			(uuid "9cfffa80-1c73-466e-b731-d757c493f41e")
 		)
 		(pad "40" thru_hole circle
 			(at 14.13 -25.77 270)
@@ -1054,55 +1041,7 @@
 			(pinfunction "GPIO21_40")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "0c34d23e-c347-41a0-9e7b-9950d094e99f")
-		)
-		(pad "41" thru_hole circle
-			(at 20.23 -17.107 270)
-			(size 1.524 1.524)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(U1-TR01-Pad41)")
-			(pinfunction "TR01_41")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "08731082-c821-49b8-bebd-8be3cfe7c5be")
-		)
-		(pad "42" thru_hole circle
-			(at 20.23 -19.647 270)
-			(size 1.524 1.524)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(U1-TR00-Pad42)")
-			(pinfunction "TR00_42")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "eb326d63-1ab6-401e-bc64-7c3415bb9e88")
-		)
-		(pad "43" thru_hole circle
-			(at 17.69 -17.107 270)
-			(size 1.524 1.524)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(U1-TR03-Pad43)")
-			(pinfunction "TR03_43")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "ec85a828-0bb2-421d-a434-42a802b19416")
-		)
-		(pad "44" thru_hole circle
-			(at 17.69 -19.647 270)
-			(size 1.524 1.524)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(U1-TR02-Pad44)")
-			(pinfunction "TR02_44")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "3441e26b-e83d-4fc0-a7f9-5e345c94d7fc")
+			(uuid "616856bf-50ce-48b7-81c0-0dbabcb4491a")
 		)
 		(pad "S1" thru_hole circle
 			(at -39 -24.5 270)
@@ -1114,7 +1053,7 @@
 			(pinfunction "SHIELD_S1")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "c271978f-367b-489b-909f-145407ced92c")
+			(uuid "60ea4e4b-beb8-4cc1-8ac0-236b62fdd959")
 		)
 		(pad "S2" thru_hole circle
 			(at 19 -24.5 270)
@@ -1126,7 +1065,7 @@
 			(pinfunction "SHIELD_S2")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "42c708a6-930f-4cfe-9d1d-22ebe7c44d35")
+			(uuid "cf72633e-81e8-4c04-b364-d51819639dfc")
 		)
 		(pad "S3" thru_hole circle
 			(at 19 24.5 270)
@@ -1138,7 +1077,7 @@
 			(pinfunction "SHIELD_S3")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "7039a18a-7734-4281-86a1-b44872e5ee96")
+			(uuid "da0da249-e4d9-47a3-8d1d-4091587f9af7")
 		)
 		(pad "S4" thru_hole circle
 			(at -39 24.5 270)
@@ -1150,7 +1089,7 @@
 			(pinfunction "SHIELD_S4")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "cb9dd1bb-0d85-4d84-8b29-3dc7608e1507")
+			(uuid "df4c9c7d-4e1a-443a-8c80-3288853355be")
 		)
 		(embedded_fonts no)
 	)

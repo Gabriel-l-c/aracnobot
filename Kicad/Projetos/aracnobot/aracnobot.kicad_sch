@@ -5,7 +5,7 @@
 	(uuid "51bdc034-976f-4b62-a17d-14117bcf70ef")
 	(paper "A4")
 	(lib_symbols
-		(symbol "RASPBERRY_PI_3_MODEL_B_:RASPBERRY_PI_3_MODEL_B_"
+		(symbol "RASPBERRY_PI_4_MODEL_B_:SC0195_9_"
 			(pin_names
 				(offset 1.016)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -20.32 33.528 0)
+				(at -22.86 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RASPBERRY_PI_3_MODEL_B_"
-				(at -20.32 -33.02 0)
+			(property "Value" "SC0195_9_"
+				(at -22.86 -37.465 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RASPBERRY_PI_3_MODEL_B_:MODULE_RASPBERRY_PI_3_MODEL_B_"
+			(property "Footprint" "SC0195_9_:MODULE_SC0195_9_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Board Computer, Model B+ 1GB RAM,Raspberry Pi 3 Series | Raspberry Pi RASPBERRY PI 3 MODEL B+"
+			(property "Description" "The Raspberry Pi 4 Model B SC0195-9 single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 processor with 1.5GHz speed and four cores, making it ideal for demanding embedded computing applications. With 8GB of RAM and a compact size of 3.346 x 2.205, this SBC offers robust performance in a small footprint. It includes 40 digital I/O lines, GbE Ethernet, and multiple USB ports (two USB 2.0 and two USB 3.0), providing versatile connectivity options. Additionally, it supports video outputs such as CSI, DSI, and HDMI, making it suitable for a wide range of multimedia projects."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,19 +83,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "Raspberry Pi"
+			(property "Package" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -119,7 +107,19 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HIEGHT" "18mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -143,7 +143,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "N/A"
+			(property "PARTREV" "1.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -155,7 +155,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -167,19 +167,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "RASPBERRY PI 3 MODEL B+"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PN" "RASPBERRY PI 3 MODEL B+"
+			(property "MP" "SC0195(9)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,10 +203,10 @@
 					(justify bottom)
 				)
 			)
-			(symbol "RASPBERRY_PI_3_MODEL_B__0_0"
+			(symbol "SC0195_9__0_0"
 				(rectangle
-					(start -20.32 -30.48)
-					(end 20.32 33.02)
+					(start -22.86 -35.56)
+					(end 20.32 25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -228,7 +216,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 27.94 180)
+					(at 25.4 20.32 180)
 					(length 5.08)
 					(name "3V3"
 						(effects
@@ -246,9 +234,9 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 30.48 180)
+					(at 25.4 22.86 180)
 					(length 5.08)
-					(name "5V"
+					(name "5V0"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -264,7 +252,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 25.4 0)
+					(at -27.94 20.32 0)
 					(length 5.08)
 					(name "GPIO2/SDA1"
 						(effects
@@ -282,10 +270,10 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 30.48 180)
+					(at 25.4 22.86 180)
 					(length 5.08)
 					(hide yes)
-					(name "5V"
+					(name "5V0"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -301,7 +289,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 22.86 0)
+					(at -27.94 17.78 0)
 					(length 5.08)
 					(name "GPIO3/SCL1"
 						(effects
@@ -319,7 +307,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -337,7 +325,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 20.32 0)
+					(at -27.94 15.24 0)
 					(length 5.08)
 					(name "GPIO4/GPIO_GCKL"
 						(effects
@@ -355,9 +343,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 20.32 180)
+					(at 25.4 15.24 180)
 					(length 5.08)
-					(name "GPIO14/TXD0"
+					(name "TXD0/GPIO14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -373,7 +361,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -392,9 +380,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 17.78 180)
+					(at 25.4 12.7 180)
 					(length 5.08)
-					(name "GPIO15/RXD0"
+					(name "RXD0/GPIO15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -410,7 +398,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 15.24 0)
+					(at -27.94 10.16 0)
 					(length 5.08)
 					(name "GPIO17/GPIO_GEN0"
 						(effects
@@ -428,7 +416,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 10.16 0)
+					(at -27.94 5.08 0)
 					(length 5.08)
 					(name "GPIO18/GPIO_GEN1"
 						(effects
@@ -446,7 +434,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 12.7 0)
+					(at -27.94 7.62 0)
 					(length 5.08)
 					(name "GPIO27/GPIO_GEN2"
 						(effects
@@ -464,7 +452,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -483,7 +471,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 7.62 0)
+					(at -27.94 2.54 0)
 					(length 5.08)
 					(name "GPIO22/GPIO_GEN3"
 						(effects
@@ -501,7 +489,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 5.08 0)
+					(at -27.94 0 0)
 					(length 5.08)
 					(name "GPIO23/GPIO_GEN4"
 						(effects
@@ -519,7 +507,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 27.94 180)
+					(at 25.4 20.32 180)
 					(length 5.08)
 					(hide yes)
 					(name "3V3"
@@ -538,7 +526,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 2.54 0)
+					(at -27.94 -2.54 0)
 					(length 5.08)
 					(name "GPIO24/GPIO_GEN5"
 						(effects
@@ -556,7 +544,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -12.7 0)
+					(at -27.94 -17.78 0)
 					(length 5.08)
 					(name "GPIO10/SPI_MOSI"
 						(effects
@@ -574,7 +562,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -593,7 +581,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -15.24 0)
+					(at -27.94 -20.32 0)
 					(length 5.08)
 					(name "GPIO9/SPI_MISO"
 						(effects
@@ -611,7 +599,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 0 0)
+					(at -27.94 -5.08 0)
 					(length 5.08)
 					(name "GPIO25/GPIO_GEN6"
 						(effects
@@ -629,7 +617,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -10.16 0)
+					(at -27.94 -15.24 0)
 					(length 5.08)
 					(name "GPIO11/SPI_SCLK"
 						(effects
@@ -647,7 +635,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -5.08 0)
+					(at -27.94 -10.16 0)
 					(length 5.08)
 					(name "GPIO8/~{SPI_CE0}"
 						(effects
@@ -665,7 +653,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -684,7 +672,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -7.62 0)
+					(at -27.94 -12.7 0)
 					(length 5.08)
 					(name "GPIO7/~{SPI_CE1}"
 						(effects
@@ -702,7 +690,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -20.32 0)
+					(at -27.94 -25.4 0)
 					(length 5.08)
 					(name "ID_SD"
 						(effects
@@ -720,7 +708,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -22.86 0)
+					(at -27.94 -27.94 0)
 					(length 5.08)
 					(name "ID_SC"
 						(effects
@@ -738,7 +726,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 12.7 180)
+					(at 25.4 2.54 180)
 					(length 5.08)
 					(name "GPIO5"
 						(effects
@@ -756,7 +744,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -775,7 +763,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 10.16 180)
+					(at 25.4 0 180)
 					(length 5.08)
 					(name "GPIO6"
 						(effects
@@ -793,7 +781,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 7.62 180)
+					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "GPIO12"
 						(effects
@@ -811,7 +799,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 5.08 180)
+					(at 25.4 -5.08 180)
 					(length 5.08)
 					(name "GPIO13"
 						(effects
@@ -829,7 +817,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -848,7 +836,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 0 180)
+					(at 25.4 -10.16 180)
 					(length 5.08)
 					(name "GPIO19"
 						(effects
@@ -866,7 +854,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 2.54 180)
+					(at 25.4 -7.62 180)
 					(length 5.08)
 					(name "GPIO16"
 						(effects
@@ -884,7 +872,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -7.62 180)
+					(at 25.4 -17.78 180)
 					(length 5.08)
 					(name "GPIO26"
 						(effects
@@ -902,7 +890,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -2.54 180)
+					(at 25.4 -12.7 180)
 					(length 5.08)
 					(name "GPIO20"
 						(effects
@@ -920,7 +908,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -27.94 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -939,7 +927,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -5.08 180)
+					(at 25.4 -15.24 180)
 					(length 5.08)
 					(name "GPIO21"
 						(effects
@@ -956,80 +944,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "TR01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -12.7 180)
-					(length 5.08)
-					(name "TR00"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -20.32 180)
-					(length 5.08)
-					(name "TR03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -17.78 180)
-					(length 5.08)
-					(name "TR02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 25.4 -25.4 180)
+					(at 25.4 -30.48 180)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -1047,7 +963,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -25.4 180)
+					(at 25.4 -30.48 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHIELD"
@@ -1066,7 +982,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -25.4 180)
+					(at 25.4 -30.48 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHIELD"
@@ -1085,7 +1001,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -25.4 180)
+					(at 25.4 -30.48 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHIELD"
@@ -1108,8 +1024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RASPBERRY_PI_3_MODEL_B_:RASPBERRY_PI_3_MODEL_B_")
-		(at 137.16 93.98 0)
+		(lib_id "RASPBERRY_PI_4_MODEL_B_:SC0195_9_")
+		(at 129.54 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1118,9 +1034,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91b344a9-2426-4a03-8cd9-c95fd97f8d35")
+		(uuid "3a916a26-2957-4c32-9fca-b20ba5f2280f")
 		(property "Reference" "U1"
-			(at 137.16 55.88 0)
+			(at 128.27 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1129,8 +1045,8 @@
 				)
 			)
 		)
-		(property "Value" "RASPBERRY_PI_3_MODEL_B_"
-			(at 137.16 58.42 0)
+		(property "Value" "SC0195_9_"
+			(at 128.27 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1139,8 +1055,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Raspberry_Pi_Footprints:MODULE_RASPBERRY_PI_3_MODEL_B_"
-			(at 137.16 93.98 0)
+		(property "Footprint" "Raspberry_pi_4_B:MODULE_SRASPBERRY_PI_4_MODEL_B_"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1152,7 +1068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1162,8 +1078,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Board Computer, Model B+ 1GB RAM,Raspberry Pi 3 Series | Raspberry Pi RASPBERRY PI 3 MODEL B+"
-			(at 137.16 93.98 0)
+		(property "Description" "The Raspberry Pi 4 Model B SC0195-9 single board computer features a powerful Broadcom BCM2711 ARM Cortex-A72 processor with 1.5GHz speed and four cores, making it ideal for demanding embedded computing applications. With 8GB of RAM and a compact size of 3.346 x 2.205, this SBC offers robust performance in a small footprint. It includes 40 digital I/O lines, GbE Ethernet, and multiple USB ports (two USB 2.0 and two USB 3.0), providing versatile connectivity options. Additionally, it supports video outputs such as CSI, DSI, and HDMI, making it suitable for a wide range of multimedia projects."
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,7 +1091,7 @@
 			)
 		)
 		(property "MF" "Raspberry Pi"
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1186,20 +1102,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
-			(at 137.16 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Raspberry Pi"
-			(at 137.16 93.98 0)
+		(property "Package" "None"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,7 +1115,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,8 +1126,20 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=eda"
-			(at 137.16 93.98 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=eda"
+			(at 129.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "18mm"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1235,7 +1151,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,8 +1162,8 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "N/A"
-			(at 137.16 93.98 0)
+		(property "PARTREV" "1.0"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1258,8 +1174,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%203%20MODEL%20B+/Raspberry+Pi/view-part/?ref=snap"
-			(at 137.16 93.98 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC0195(9)/Raspberry+Pi/view-part/?ref=snap"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1270,20 +1186,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "RASPBERRY PI 3 MODEL B+"
-			(at 137.16 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "RASPBERRY PI 3 MODEL B+"
-			(at 137.16 93.98 0)
+		(property "MP" "SC0195(9)"
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1295,7 +1199,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1307,7 +1211,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Raspberry Pi"
-			(at 137.16 93.98 0)
+			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1318,149 +1222,137 @@
 				(justify bottom)
 			)
 		)
-		(pin "8"
-			(uuid "012d50d4-dada-4ca2-81fc-cb2bedaa91a7")
-		)
-		(pin "7"
-			(uuid "ee56cbb2-814b-4fea-9b1b-3e33928730ba")
-		)
-		(pin "6"
-			(uuid "8439177e-46e5-4087-974f-3d91961c2fc9")
-		)
-		(pin "5"
-			(uuid "abe50a8a-bb6c-497f-972c-5aae789d99c0")
-		)
-		(pin "4"
-			(uuid "644f27c2-3541-4485-9bfe-a640253be5e8")
-		)
-		(pin "3"
-			(uuid "93099fe9-193a-4481-a99a-d415a0b79704")
-		)
-		(pin "2"
-			(uuid "e60906de-62cb-4820-95cf-dd2439e500eb")
-		)
-		(pin "1"
-			(uuid "8c19c0a2-d81e-4363-bf79-247b825457e1")
-		)
-		(pin "9"
-			(uuid "30e0f323-a405-4d10-b919-def6db46c39c")
-		)
 		(pin "10"
-			(uuid "2446c379-f96b-42f8-bbd8-d0dc542b0bad")
+			(uuid "bb093bea-ca6e-4dde-ba6a-4ef61abefada")
 		)
 		(pin "11"
-			(uuid "244a04b7-deb1-4937-946f-36d2b5179404")
+			(uuid "e14e60c6-5978-491b-a3fc-7fa308c8871c")
+		)
+		(pin "9"
+			(uuid "0803bab0-ccad-4778-8118-79ae0abdd1d9")
+		)
+		(pin "7"
+			(uuid "a17b54c5-e6d6-4975-b582-79b1b9f8fac6")
+		)
+		(pin "6"
+			(uuid "1590143d-3f45-4aa0-94f9-10fc6ecbe91f")
+		)
+		(pin "5"
+			(uuid "ec1e37f3-377a-4e84-bacc-0e6f3a07917b")
+		)
+		(pin "4"
+			(uuid "827c23b3-d94e-43d5-ad23-ef2fd96f5ac1")
+		)
+		(pin "3"
+			(uuid "57655769-c52c-4d7f-a1e1-4784b043eaf9")
+		)
+		(pin "2"
+			(uuid "00dce099-d153-4527-8ba1-07c32e8c564a")
+		)
+		(pin "1"
+			(uuid "7b1c8ea6-985f-4630-86bf-23ac4741df79")
+		)
+		(pin "8"
+			(uuid "647c9eb3-72e0-4862-ae20-6c3d2bc4d362")
 		)
 		(pin "12"
-			(uuid "0dbdbc50-276a-4551-82b8-57ecde73aa96")
+			(uuid "1f70f170-6c0e-48d4-8786-03d6886eda68")
 		)
 		(pin "13"
-			(uuid "afadf25c-b1f0-4e3c-b5a5-3f89543c15e3")
+			(uuid "1851d40a-afcb-456d-ae26-666523267217")
 		)
 		(pin "14"
-			(uuid "954e644f-300f-49af-a097-f63ef9013696")
+			(uuid "35ff6ea3-968d-45b7-a2a6-17469ab16f18")
 		)
 		(pin "15"
-			(uuid "2daea4ed-faee-4152-8533-c40c8736dc2a")
+			(uuid "10316fcc-0fc1-4c1e-993c-8ad9b189a4d8")
 		)
 		(pin "16"
-			(uuid "4f67254c-3462-4647-b37d-33d663a87198")
+			(uuid "695af93f-d9bd-40a6-b3d6-c2348c84e653")
 		)
 		(pin "17"
-			(uuid "ac4098d7-1ac0-4235-bdf3-d43a9757244d")
+			(uuid "994c21c4-420e-4718-a371-57a342f26402")
 		)
 		(pin "18"
-			(uuid "3875312d-bc2d-4226-a4f4-7d3157f506f2")
+			(uuid "659d1a9f-80f6-45f3-bc7b-403363377b31")
 		)
 		(pin "19"
-			(uuid "11448069-d6e5-43fc-9b36-2bf19f9fb704")
+			(uuid "73b7d0c9-37dd-44c0-97fd-3dd6c4102c4f")
 		)
 		(pin "20"
-			(uuid "8829515d-dd0f-4250-b29a-2603491c6c66")
+			(uuid "94a566a7-c7d8-49a9-8d57-af3a6079ada8")
 		)
 		(pin "21"
-			(uuid "3316fd39-3dca-4a54-830a-0e6f913e674a")
+			(uuid "0cade829-d05c-4ffa-b64d-d54f47698042")
 		)
 		(pin "22"
-			(uuid "6622dc57-02f4-4c9b-b2e7-f7b4eae098a8")
+			(uuid "0f58ce94-13b2-4305-ae52-9520a93e8ff3")
 		)
 		(pin "23"
-			(uuid "cf5a4ff6-2b28-4c9b-8f8b-15e99fbd050b")
+			(uuid "e9b38b41-67e2-4d7c-a42f-bfde779e1e33")
 		)
 		(pin "24"
-			(uuid "0037439e-1dd9-4d52-9f10-c99a00c5e84e")
+			(uuid "6e6442f7-9c0e-44a6-924d-1f42752022b7")
 		)
 		(pin "25"
-			(uuid "c3855a1f-b7ae-48f7-a213-09d72f9e9a2e")
+			(uuid "c2f62b0f-a768-41ce-8f66-237ae06d82c8")
 		)
 		(pin "26"
-			(uuid "b03aa3ee-2955-42ac-9d51-f0e4e4792771")
+			(uuid "f7d334ab-0197-47bb-a4e2-929f48d8763c")
 		)
 		(pin "27"
-			(uuid "733d2819-0b08-4c4f-9bcd-875dfb189553")
+			(uuid "6b636864-2ff5-4b19-8fab-72aff33f4d22")
 		)
 		(pin "28"
-			(uuid "8b972e45-8c50-4b74-b4d3-83d758767ca6")
+			(uuid "38d8eac1-500c-42ec-9ad1-c49dc6dc5b3f")
 		)
 		(pin "29"
-			(uuid "23acec89-9a2e-4be9-bc38-4042c99c3af9")
+			(uuid "f70dffd9-a1a1-4748-ae64-3711ebee4ac6")
 		)
 		(pin "30"
-			(uuid "66ad22f4-eb08-43e7-8861-de5aa6223b19")
+			(uuid "6410cf18-868c-4aeb-9e24-44ca04757163")
 		)
 		(pin "31"
-			(uuid "b9424909-be50-4e3e-83e9-199c6e7a1124")
+			(uuid "8fee70cf-1074-48ff-aa1a-6332ab4e4775")
 		)
 		(pin "32"
-			(uuid "a7ea0124-96d5-47a9-a2f7-969635fa506c")
+			(uuid "53786760-744d-4906-a16f-a400cad0b2b0")
 		)
 		(pin "33"
-			(uuid "7ddc04ae-6ed2-45e3-b424-0de9dbb1e1ee")
+			(uuid "dc6163b2-8d04-468c-b4e4-d2e814727224")
 		)
 		(pin "34"
-			(uuid "1ffd4d12-3bda-4fe2-9cfa-792db0ea0ec8")
+			(uuid "126fa19d-d6d5-414a-b770-f9f22c84f1b0")
 		)
 		(pin "35"
-			(uuid "6380f92f-a4e9-4c54-95b4-41da27f65efd")
+			(uuid "a48331e2-811f-4bc2-923a-c049b808d3e1")
 		)
 		(pin "36"
-			(uuid "df0bde4a-34a5-485f-9878-55537783fb76")
+			(uuid "f965f8a3-30f8-400a-ae65-64ee728a911f")
 		)
 		(pin "37"
-			(uuid "0ff3147d-78a9-47f0-8e2f-12f8b9559f01")
+			(uuid "166ff24d-e9ef-41b8-b9f4-0a2f31938039")
 		)
 		(pin "38"
-			(uuid "7f32b1c9-4a3f-47fe-96e4-c73dd7645f45")
+			(uuid "4f0defa5-44ae-463d-8072-ef782b6864ad")
 		)
 		(pin "39"
-			(uuid "3bf1457d-3e6d-40ec-85eb-f663dea9270b")
+			(uuid "1cf6398c-665e-4a10-a321-ea007d3bfb6a")
 		)
 		(pin "40"
-			(uuid "f303144a-5ea7-4b8a-99ff-3e2b4995fc02")
-		)
-		(pin "41"
-			(uuid "ac95aebd-d7b6-40ba-b7e1-04c2bf505333")
-		)
-		(pin "42"
-			(uuid "74f2bad8-3e3c-424f-b554-35a01fc8a23a")
-		)
-		(pin "43"
-			(uuid "5ab68e72-d332-4fc1-9a6a-c188fb03966a")
-		)
-		(pin "44"
-			(uuid "0d5cd534-5818-451b-a391-62fd567c0da8")
+			(uuid "1fbf53b2-9d7b-411b-b12f-fc93e66ad26d")
 		)
 		(pin "S1"
-			(uuid "a416cc44-00b9-44eb-ad29-ae11c743e08e")
+			(uuid "30119748-20c3-4381-af4d-f4883ea7f29c")
 		)
 		(pin "S2"
-			(uuid "175249d8-1e95-4072-bc7c-64f4b3f5270c")
+			(uuid "7597018e-1abd-4393-8eb1-d71c90a1813f")
 		)
 		(pin "S3"
-			(uuid "46693ea4-d270-4dea-af48-db1ddab0c682")
+			(uuid "e4e4300f-48ed-4bab-a1f2-9b9920114831")
 		)
 		(pin "S4"
-			(uuid "8bed21d5-90ca-4949-b6d9-d1e226d5a3a0")
+			(uuid "6d16b856-bde5-4c3e-b457-66961d8ae82f")
 		)
 		(instances
 			(project "aracnobot"
