@@ -1,0 +1,11 @@
+# artefatos do ros2
+build/
+install/
+log/
+
+# artefatos do python
+__pycache__/
+*.py[cod]
+
+# artefatos do docker
+.dockerignore

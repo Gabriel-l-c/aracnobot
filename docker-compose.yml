@@ -1,0 +1,12 @@
+services:
+  aracnobot:
+    build: .
+    container_name: aracnobot_container
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ./src:/ros2_ws/src
+    network_mode: host
+    tty: true
+    stdin_open: true
