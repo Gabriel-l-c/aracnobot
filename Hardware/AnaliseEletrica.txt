@@ -41,3 +41,5 @@ Analise eletrica :
 
 15,048 - 24,048 A total maximo
 
+Para alimentação do projeto e sugerido um banco baterias de Li-íon ou Lipo,
+por exemplo: 18650 5000mAh, minimo 2s2p, ideal 3s3p
