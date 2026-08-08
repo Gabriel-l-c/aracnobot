@@ -1,1 +1,43 @@
 Servo motores: 
+9g
+torque1.8kg .cm
+250 a 500 ma com carga,  100 a 220 ma para moviemnto livre
+400 mas carga leve
+750 ma carga pesada
+0,01 - 2 ma para pino pwm do servo
+
+24x = 12A - 20A (de prevencao para travamento) para alimentação
+
+
+esp32: 
+13g
+500ma alimentação minima indicado
+100 ma sem wifi
+500 ma com wifi
+40 ma maximo por gpio - 1.1A maxima com gpios combinados
+
+raspberry pi: 
+50g
+600ma em repouso, 2,5 - 3 A alimentação indicado
+
+
+Analise eletrica :
+ 
+	quatro patas:
+ 
+12 servos : 6A - 9,6A -> se todos ligados ao mesmo tempo
+24 ma para pwm
+1 esp32 :0,5 - 1A
+1 rasp :2,5 - 3 A
+
+9,024 - 13,624 A total maximo 
+
+	8 patas:
+
+12 servos : 12A - 20A -> se todos ligados ao mesmo tempo
+48 ma para pwm
+1 esp32 : 0,5 - 1A
+1 rasp : 2,5 - 3 A
+
+15,048 - 24,048 A total maximo
+
