@@ -43,3 +43,40 @@ Analise eletrica :
 
 Para alimentação do projeto e sugerido um banco baterias de Li-íon ou Lipo,
 por exemplo: 18650 5000mAh, minimo 2s2p, ideal 3s3p
+
+
+Analise em potencia: ---------------------- 11 de agosto de 2026
+
+ESP32 com display OLED
+
+    Potência mínima: cerca de 0,05 W, quando a ESP32 está em deep sleep e o display OLED está desligado, com corrente em torno de 0,01 A.
+
+    Potência média (típica): cerca de 0,6 W em uso normal, com Wi‑Fi ligado e OLED ativo, correspondendo a aproximadamente 0,12 A.
+
+    Potência máxima: cerca de 4 W quando a ESP32 está transmitindo em Wi‑Fi, com OLED ligado, câmera ativa e sensores adicionais, resultando em corrente próxima de 0,8 A.
+
+18 servos MG90S
+
+    Potência mínima: cerca de 0,9 W quando os 18 servos estão parados e sem carga, com corrente total em torno de 0,18 A.
+
+    Potência média (típica): entre 13,5 W e 18 W quando os servos estão em movimento com carga leve a moderada, com corrente total entre 2,7 A e 3,6 A.
+
+    Potência máxima (sem stall): entre 54 W e 72 W quando os 18 servos estão em movimento sob carga alta, mas sem travar, com corrente total entre 10,8 A e 14,4 A.
+
+Raspberry Pi 4 Model B
+
+    Potência mínima: cerca de 2,5 W em estado ocioso (idle), sem periféricos pesados, com corrente em torno de 0,5 A.
+
+    Potência média (típica): cerca de 4,5 W em uso moderado, com alguns serviços rodando e CPU parcialmente carregada, correspondendo a aproximadamente 0,9 A.
+
+    Potência máxima: cerca de 10 W quando os 4 núcleos da CPU estão em 100%, com câmera, periféricos USB e processamento de machine learning ativo, com corrente próxima de 2,0 A.
+
+Sistema completo (ESP32 + OLED + 18 MG90S + Raspberry Pi 4)
+
+    Potência mínima do sistema: cerca de 3,5 W, com ESP32 em deep sleep, servos parados e Raspberry Pi em idle, resultando em corrente total em torno de 0,7 A.
+
+    Potência média do sistema: entre 18,6 W e 23 W, com ESP32 em uso normal, servos em movimento leve a moderado e Raspberry Pi em uso moderado, com corrente total entre 3,7 A e 4,6 A.
+
+    Potência máxima do sistema: entre 68 W e 86 W, com ESP32 operando no pico (câmera + sensores + Wi‑Fi), servos em carga alta (sem stall) e Raspberry Pi em carga máxima (machine learning + câmera + USB), resultando em corrente total entre 13,6 A e 17,2 A.
+
+
