@@ -43,3 +43,5 @@ Analise eletrica :
 
 Para alimentação do projeto e sugerido um banco baterias de Li-íon ou Lipo,
 por exemplo: 18650 5000mAh, minimo 2s2p, ideal 3s3p
+no site laternatatica tem bateria 18650 5500mAh por 23 reais cada
+
