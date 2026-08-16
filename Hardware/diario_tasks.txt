@@ -1,0 +1,3 @@
+medir distancia dos servos do modelo até a carga?
+baterias, quais capacidades e tensao, caracteristicas de descarga, tensao de corte, datasheet ou generalizar dentro de algum seguro?
+
