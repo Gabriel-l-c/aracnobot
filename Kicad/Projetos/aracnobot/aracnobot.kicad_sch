@@ -2110,6 +2110,226 @@
 			(embedded_fonts no)
 		)
 	)
+	(label "perna 4 coxa"
+		(at 171.45 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c51620-b126-422d-b6f8-b78c350b52e8")
+	)
+	(label "perna 2 tibia"
+		(at 171.45 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21ff8afc-442b-4527-84d6-c237f7131db1")
+	)
+	(label "perna 2 femur"
+		(at 204.47 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b01bc09-f5dd-460c-a3e9-3b539d64b7c8")
+	)
+	(label "perna 3 coxa"
+		(at 204.47 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e0aacc6-aaf4-4837-b4f5-6cee83822c46")
+	)
+	(label "perna 2 coxa"
+		(at 234.95 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c615b63-0a2b-46c3-bb6e-b7a68d128190")
+	)
+	(label "perna 4 femur"
+		(at 204.47 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d321574-12ab-40e3-a634-e5884cb038b9")
+	)
+	(label "perna 1 ponta"
+		(at 234.95 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6715be89-f88d-414c-8810-eaa759b79328")
+	)
+	(label "perna 3 tibia"
+		(at 171.45 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ce9c0f3-b0fc-41a8-9d7e-1b5aa0e0c46e")
+	)
+	(label "perna 3 coxa"
+		(at 171.45 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7009b77a-c2fd-43f8-9cac-b45ef151baef")
+	)
+	(label "perna 3 femur"
+		(at 234.95 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f691198-e25e-4a7d-b0c3-47a34cf7004c")
+	)
+	(label "perna 3 tibia"
+		(at 204.47 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80e0389e-9721-4cf1-acbd-319e7d51ac7a")
+	)
+	(label "perna 4 femur"
+		(at 171.45 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81453c1f-91f7-4ce9-9ae1-0e529306259c")
+	)
+	(label "perna 2 coxa"
+		(at 265.43 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1ce3872-58eb-47c7-a2a8-4f86c31135d9")
+	)
+	(label "perna 1 coxa"
+		(at 265.43 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5ee7925-1fef-4f82-b296-c044988a6341")
+	)
+	(label "perna 2 tibia"
+		(at 204.47 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c16c4773-ecc2-4446-9cbe-4eca47802b09")
+	)
+	(label "perna 1 tibia"
+		(at 265.43 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c90139b5-0063-403a-bc02-9a99cca0c313")
+	)
+	(label "perna 1 coxa"
+		(at 234.95 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccaf1ed1-27cb-414f-bfb6-2713fe8a4216")
+	)
+	(label "perna 1 femur"
+		(at 265.43 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf52532a-a7a0-42f3-8ede-541cfc6094d9")
+	)
+	(label "perna 1 meio"
+		(at 234.95 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4dc7482-e3e1-4d43-91da-0b2114b4b838")
+	)
+	(label "perna 2 femur"
+		(at 171.45 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaeb71c5-79b3-4b74-801a-4e00708c20ee")
+	)
+	(label "perna 4 coxa"
+		(at 204.47 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4400f10-0e77-4a19-8701-cfc669c56b9c")
+	)
+	(label "perna 3 femur"
+		(at 265.43 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fda04279-9c48-40bf-877b-5ac058b3305a")
+	)
 	(symbol
 		(lib_id "DEVKIT_V1_ESP32-WROOM-32:DEVKIT_V1_ESP32-WROOM-32")
 		(at 219.71 110.49 0)
@@ -2427,6 +2647,176 @@
 			(project "aracnobot"
 				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 273.05 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c62907a-6ccc-4537-8af7-9bedffaecbf4")
+		(property "Reference" "M8"
+			(at 281.94 111.3268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 281.94 113.8668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 273.05 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 273.05 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 273.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "705c5917-820f-42d2-9f2f-450d195a12ed")
+		)
+		(pin "2"
+			(uuid "4c68f21a-e2a9-4072-8314-a65ce7e1fb46")
+		)
+		(pin "3"
+			(uuid "a2689418-2857-49d0-a8ae-e8a752a97a31")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3071120c-39b7-4ed7-8870-72593b07d2c9")
+		(property "Reference" "M11"
+			(at 154.94 93.1432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 90.6032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd785ef9-b51a-402e-9f7f-2b87d0997718")
+		)
+		(pin "2"
+			(uuid "c61aea9f-59e4-44d1-bc0b-4e14ea64d7af")
+		)
+		(pin "3"
+			(uuid "5233f1a2-1969-41fe-9edc-0d4f176f73a6")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M11")
 					(unit 1)
 				)
 			)
@@ -2774,7 +3164,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 184.15 38.1 0)
+		(at 273.05 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2783,9 +3173,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea3e29be-42a6-418f-b77f-b5de70fbcb96")
-		(property "Reference" "M1"
-			(at 193.04 36.3968 0)
+		(uuid "6472ead9-c81a-4a7a-95ce-e68f471aa34d")
+		(property "Reference" "M4"
+			(at 281.94 144.3468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2796,7 +3186,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 193.04 38.9368 0)
+			(at 281.94 146.8868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2807,7 +3197,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 184.15 42.926 0)
+			(at 273.05 150.876 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +3208,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 184.15 42.926 0)
+			(at 273.05 150.876 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +3219,517 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 184.15 38.1 0)
+			(at 273.05 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c31eb345-f2b5-45fe-84de-9cb0a81b2562")
+		)
+		(pin "2"
+			(uuid "9c065e3a-5e05-4b74-ac23-7159bd1d4a06")
+		)
+		(pin "3"
+			(uuid "412c569e-54b9-4624-90ff-84d1fc9e1447")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6829e5bf-dec5-4c70-bd3d-4d497c2c71a4")
+		(property "Reference" "M9"
+			(at 154.94 126.1632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 123.6232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 119.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 119.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5a252aa-0c1c-4615-95c3-d0a89b89a7fa")
+		)
+		(pin "2"
+			(uuid "889483d6-3bab-431f-af90-d61de3064d0c")
+		)
+		(pin "3"
+			(uuid "cd7ef6e9-e06e-4bdb-917a-69576cd7aa37")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 273.05 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87543788-409f-43d7-9ab7-9ee59132835a")
+		(property "Reference" "M3"
+			(at 281.94 122.7568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 281.94 125.2968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 273.05 129.286 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 273.05 129.286 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 273.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "540bab09-bd8a-4df1-abea-4f9e247276fe")
+		)
+		(pin "2"
+			(uuid "f46a1231-2465-4bae-a11b-09ffb00b36e9")
+		)
+		(pin "3"
+			(uuid "6a766dd0-1d6f-4837-b23a-d3af4c85d50a")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b988bee-caf6-4df6-94c4-9098fcc05118")
+		(property "Reference" "M6"
+			(at 154.94 137.5932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 135.0532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "384fb4d4-33a9-45af-98ac-b8fcb788886d")
+		)
+		(pin "2"
+			(uuid "720573e9-02c0-4027-92ef-6b948264d5ff")
+		)
+		(pin "3"
+			(uuid "fa827104-cb8d-4ad2-a011-ea2a4282e66c")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fd5ac7-4603-4c3f-814c-ae85fecd7b9e")
+		(property "Reference" "M10"
+			(at 154.94 103.3032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 100.7632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b574e1c9-9b30-46cd-bbe6-80cb973985de")
+		)
+		(pin "2"
+			(uuid "26d4aa22-3675-4b15-adc6-6be5513b5619")
+		)
+		(pin "3"
+			(uuid "cd6eac3e-96ec-418d-9967-cda8b8ee88b1")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bf80be-21ef-4554-9a26-3f96792232a4")
+		(property "Reference" "M7"
+			(at 154.94 114.7332 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 112.1932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 108.204 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 108.204 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76ec95cc-9c7c-4f1a-9b65-93951fa69d4d")
+		)
+		(pin "2"
+			(uuid "349076c1-1088-496c-9bca-045e52c1fb42")
+		)
+		(pin "3"
+			(uuid "cdfa2a12-25eb-4140-a57c-e6daab6adb00")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 273.05 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea3e29be-42a6-418f-b77f-b5de70fbcb96")
+		(property "Reference" "M1"
+			(at 281.94 154.5068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 281.94 157.0468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 273.05 161.036 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 273.05 161.036 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 273.05 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,6 +3752,176 @@
 			(project "aracnobot"
 				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 163.83 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabb71c2-5114-4b91-b35c-d5189dc1d7a9")
+		(property "Reference" "M5"
+			(at 154.94 150.2932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 154.94 147.7532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 163.83 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 163.83 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7245fb30-c973-4368-a09c-c192ba4da25b")
+		)
+		(pin "2"
+			(uuid "18485a06-a951-4478-80cc-9d5fb8b7b416")
+		)
+		(pin "3"
+			(uuid "4aca0803-10fe-49ab-81cc-d9a2af6effce")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 273.05 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdcebd0a-5f9e-4dd5-a519-4b1b077f5cd6")
+		(property "Reference" "M2"
+			(at 281.94 134.1868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 281.94 136.7268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 273.05 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 273.05 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 273.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b9936bb-eb9a-426a-a753-0836ab55ac46")
+		)
+		(pin "2"
+			(uuid "1fb91c45-19d3-48d9-b771-5bbcfbb155cc")
+		)
+		(pin "3"
+			(uuid "720ad7d2-9bb1-4a20-96a6-9d0f771b6ca6")
+		)
+		(instances
+			(project "aracnobot"
+				(path "/51bdc034-976f-4b62-a17d-14117bcf70ef"
+					(reference "M2")
 					(unit 1)
 				)
 			)
