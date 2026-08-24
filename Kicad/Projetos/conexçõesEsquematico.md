@@ -17,7 +17,7 @@
 | | Ponta (Tíbia) | GPIO 15 |Pino de boot (Emite sinal rápido ao ligar)  |
 | **Perna 4** | Base (Coxa) | GPIO 5 | Pino de boot (Pode dar um pequeno tranco ao ligar)|
 | | Meio (Fêmur) | GPIO 2 | LED Interno / Dá tranco no boot |
-| | Ponta (Tíbia) | GPIO 0 | Botão BOOT / Risco de travar o código se puxado para LOW|
+| | Ponta (Tíbia) | GPIO 35| Botão BOOT / Risco de travar o código se puxado para LOW|
 | **Perna 5** | Base (Coxa) | GPIO 21 | |
 | | Meio (Fêmur) | GPIO 19 | |
 | | Ponta (Tíbia) | GPIO 18 | |

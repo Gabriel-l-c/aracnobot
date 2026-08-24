@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -449,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -489,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "aracnobot.kicad_pro",
+    "filename": "drone.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,14 +522,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -594,6 +590,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -610,7 +618,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referência"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -641,33 +649,34 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "aracnobot.kicad_sch",
-        "name": "Root",
-        "uuid": "51bdc034-976f-4b62-a17d-14117bcf70ef"
+        "filename": "drone.kicad_sch",
+        "name": "Raiz",
+        "uuid": "c27843fe-fa93-454c-8c26-5edfdbe16b67"
+      },
+      {
+        "filename": "raspberry.kicad_sch",
+        "name": "raspberry",
+        "uuid": "6f3544ac-4dae-410b-b976-5c5bd7ef4b56"
       }
     ],
-    "used_designators": "M1-11,U1-2,J1",
+    "used_designators": "U1-3,M1-18,#PWR1-40",
     "variants": []
   },
   "sheets": [
     [
-      "51bdc034-976f-4b62-a17d-14117bcf70ef",
-      "Root"
+      "c27843fe-fa93-454c-8c26-5edfdbe16b67",
+      "Raiz"
+    ],
+    [
+      "6f3544ac-4dae-410b-b976-5c5bd7ef4b56",
+      "raspberry"
     ]
   ],
   "text_variables": {},
