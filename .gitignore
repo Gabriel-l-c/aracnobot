@@ -8,4 +8,7 @@ __pycache__/
 *.py[cod]
 
 # artefatos do docker
-.dockerignore
+*.dockerignore
+
+# artefatos do kicad
+*.lck
