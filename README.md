@@ -1,3 +1,6 @@
+em /Documentos estão tanto a base teórica do projeto, como datasheets de todos os componentes usados e
+outros documentos relevantes
+
 # 🕷️ Aracnobot - Estrutura de Tarefas
 
 ## ⚡ Eletrônica & Código Embarcado (Hardware & Firmware)
