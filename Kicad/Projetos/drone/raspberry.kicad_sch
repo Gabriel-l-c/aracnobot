@@ -1277,7 +1277,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "tx"
+	(global_label "tx_esp32"
 		(shape input)
 		(at 124.46 66.04 0)
 		(fields_autoplaced yes)
@@ -1287,9 +1287,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8c1b6901-3e42-4c12-9b5a-a993bbad5b0b")
+		(uuid "b9f5b729-696f-4271-8f93-ca37e8438747")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.199 66.04 0)
+			(at 135.8513 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1301,7 +1301,7 @@
 			)
 		)
 	)
-	(global_label "rx"
+	(global_label "rx_esp32"
 		(shape input)
 		(at 124.46 63.5 0)
 		(fields_autoplaced yes)
@@ -1311,9 +1311,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ad2541ae-d7cc-405a-9681-dc4195a3d479")
+		(uuid "fd59e5bd-4a47-4dd4-b1ad-c802dae8ae31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.2595 63.5 0)
+			(at 135.9118 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
