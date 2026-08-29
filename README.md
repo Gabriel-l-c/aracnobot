@@ -2,13 +2,13 @@
 
 Toda a pesquisa, manuais e especificações técnicas do projeto estão organizados no diretório de documentos:
 
-* **[Abrir Pasta de Documentos](./Documentos/)**
-* 
+* **[Documentos](./Documentos/)**
+ 
 ## 📂 Firmware e hardware
 
 Todo o desenvolvimento de locomoção, plataforma de programação, protocolos de comunicação, kicad, eletrônica estão
 no diretório Firmware e Hardware 
-* **[Abrir Pasta de Documentos](./Firmware e Hardware/)** 
+* **[Firmware e Hardware](./Firmware%20e%20Hardware/)** 
 
 # 🕷️ Aracnobot - Estrutura de Tarefas
 
