@@ -1,86 +1,107 @@
-Servo motores: 
-9g
-torque1.8kg .cm
-250 a 500 ma com carga,  100 a 220 ma para moviemnto livre
-400 mas carga leve
-750 ma carga pesada
-0,01 - 2 ma para pino pwm do servo
+===============================================================================
+                       ARACNOBOT - ESPECIFICAÇÕES E ANÁLISE ELÉTRICA
+===============================================================================
+Última Atualização: 11 de agosto de 2026
 
-24x = 12A - 20A (de prevencao para travamento) para alimentação
+-------------------------------------------------------------------------------
+1. ESPECIFICAÇÕES DOS COMPONENTES
+-------------------------------------------------------------------------------
 
+[Servo Motores (Micro Servo 9g - ex: MG90S)]
+- Peso unitário: 9 g
+- Torque: 1.8 kg.cm
+- Consumo por Pino PWM (Sinal): 0.01 mA a 2.0 mA
+- Consumo de Corrente (Alimentação):
+  * Em movimento livre:  100 mA a 220 mA
+  * Sob carga leve:      250 mA a 400 mA
+  * Sob carga pesada:    500 mA a 750 mA
+  * Dimensionamento (24x servos): 12A a 20A (Margem de prevenção para travamento)
 
-esp32: 
-13g
-500ma alimentação minima indicado
-100 ma sem wifi
-500 ma com wifi
-40 ma maximo por gpio - 1.1A maxima com gpios combinados
+[Microcontrolador ESP32 (com display OLED)]
+- Peso unitário: 13 g
+- Corrente por GPIO: 40 mA máximo por pino (Limite combinado de 1.1A para todas as GPIOs)
+- Consumo de Corrente (Alimentação a 5V):
+  * Deep Sleep + OLED desligado:   10 mA (0.01 A) -> 0.05 W
+  * Uso típico (Wi-Fi + OLED):    120 mA (0.12 A) -> 0.60 W
+  * Pico (Wi-Fi + Câmera + Sensores): 800 mA (0.80 A) -> 4.00 W
+- Fonte mínima indicada: 500 mA
 
-raspberry pi: 
-50g
-600ma em repouso, 2,5 - 3 A alimentação indicado
-
-
-Analise eletrica :
- 
-	quatro patas:
- 
-12 servos : 6A - 9,6A -> se todos ligados ao mesmo tempo
-24 ma para pwm
-1 esp32 :0,5 - 1A
-1 rasp :2,5 - 3 A
-
-9,024 - 13,624 A total maximo 
-
-	8 patas:
-
-12 servos : 12A - 20A -> se todos ligados ao mesmo tempo
-48 ma para pwm
-1 esp32 : 0,5 - 1A
-1 rasp : 2,5 - 3 A
-
-15,048 - 24,048 A total maximo
-
-Para alimentação do projeto e sugerido um banco baterias de Li-íon ou Lipo,
-por exemplo: 18650 5000mAh, minimo 2s2p, ideal 3s3p
-
-no site laternatatica tem bateria 18650 5500mAh por 23 reais cada
+[Computador de Borda (Raspberry Pi 4 Model B)]
+- Peso unitário: 50 g
+- Consumo de Corrente e Potência (Alimentação a 5V):
+  * Em repouso (Idle/Sem periféricos): 500 mA (0.50 A) ->  2.5 W
+  * Uso moderado (Serviços ativos):    900 mA (0.90 A) ->  4.5 W
+  * Carga máxima (CPU 100% + ML + Cam): 2.0 A           -> 10.0 W
+- Fonte indicada para alimentação estável: 2.5 A a 3.0 A
 
 
+-------------------------------------------------------------------------------
+2. ANÁLISE DE CORRENTE POR CONFIGURAÇÃO DE PATAS
+-------------------------------------------------------------------------------
 
-Analise em potencia: ---------------------- 11 de agosto de 2026
+[Configuração: 4 Patas (Total de 12 Servos)]
+- 12 Servos (Carga Leve a Pesada simultânea): 6.000 A a  9.600 A
+- Pinos de sinal PWM (Consumo total):        0.024 A a  0.024 A
+- ESP32 (Consumo mínimo a máximo):           0.500 A a  1.000 A
+- Raspberry Pi (Consumo mínimo a máximo):     2.500 A a  3.000 A
+-------------------------------------------------------------------------------
+CORRENTE TOTAL MÁXIMA ESTIMADA:               9.024 A a 13.624 A
 
-ESP32 com display OLED
-
-    Potência mínima: cerca de 0,05 W, quando a ESP32 está em deep sleep e o display OLED está desligado, com corrente em torno de 0,01 A.
-
-    Potência média (típica): cerca de 0,6 W em uso normal, com Wi‑Fi ligado e OLED ativo, correspondendo a aproximadamente 0,12 A.
-
-    Potência máxima: cerca de 4 W quando a ESP32 está transmitindo em Wi‑Fi, com OLED ligado, câmera ativa e sensores adicionais, resultando em corrente próxima de 0,8 A.
-
-18 servos MG90S
-
-    Potência mínima: cerca de 0,9 W quando os 18 servos estão parados e sem carga, com corrente total em torno de 0,18 A.
-
-    Potência média (típica): entre 13,5 W e 18 W quando os servos estão em movimento com carga leve a moderada, com corrente total entre 2,7 A e 3,6 A.
-
-    Potência máxima (sem stall): entre 54 W e 72 W quando os 18 servos estão em movimento sob carga alta, mas sem travar, com corrente total entre 10,8 A e 14,4 A.
-
-Raspberry Pi 4 Model B
-
-    Potência mínima: cerca de 2,5 W em estado ocioso (idle), sem periféricos pesados, com corrente em torno de 0,5 A.
-
-    Potência média (típica): cerca de 4,5 W em uso moderado, com alguns serviços rodando e CPU parcialmente carregada, correspondendo a aproximadamente 0,9 A.
-
-    Potência máxima: cerca de 10 W quando os 4 núcleos da CPU estão em 100%, com câmera, periféricos USB e processamento de machine learning ativo, com corrente próxima de 2,0 A.
-
-Sistema completo (ESP32 + OLED + 18 MG90S + Raspberry Pi 4)
-
-    Potência mínima do sistema: cerca de 3,5 W, com ESP32 em deep sleep, servos parados e Raspberry Pi em idle, resultando em corrente total em torno de 0,7 A.
-
-    Potência média do sistema: entre 18,6 W e 23 W, com ESP32 em uso normal, servos em movimento leve a moderado e Raspberry Pi em uso moderado, com corrente total entre 3,7 A e 4,6 A.
-
-    Potência máxima do sistema: entre 68 W e 86 W, com ESP32 operando no pico (câmera + sensores + Wi‑Fi), servos em carga alta (sem stall) e Raspberry Pi em carga máxima (machine learning + câmera + USB), resultando em corrente total entre 13,6 A e 17,2 A.
+[Configuração: 8 Patas (Total de 24 Servos)]
+- 24 Servos (Margem preventiva de stall):   12.000 A a 20.000 A
+- Pinos de sinal PWM (Consumo total):        0.048 A a  0.048 A
+- ESP32 (Consumo mínimo a máximo):           0.500 A a  1.000 A
+- Raspberry Pi (Consumo mínimo a máximo):     2.500 A a  3.000 A
+-------------------------------------------------------------------------------
+CORRENTE TOTAL MÁXIMA ESTIMADA:              15.048 A a 24.048 A
 
 
+-------------------------------------------------------------------------------
+3. DETALHAMENTO DE POTÊNCIA (RECALCULADO COM 18 SERVOS MG90S)
+-------------------------------------------------------------------------------
 
+[Módulo 1: ESP32 + Display OLED]
+- Mínima:  0.05 W (Deep Sleep | ~0.01 A)
+- Média:   0.60 W (Típica em uso | ~0.12 A)
+- Máxima:  4.00 W (Pico de transmissão/câmera | ~0.80 A)
+
+[Módulo 2: 18x Servos MG90S]
+- Mínima (Standby/Estático): 0.90 W 
+  * Servos ligados, mas parados e sem carga externa (~10 mA por servo | 0.18 A total)
+- Média (Movimento Livre - Sem carga externa): 9.00 W a 19.80 W
+  * Servos operando livremente (100 mA a 220 mA por servo | 1.80 A a 3.96 A total)
+- Média (Operação com Carga Leve/Moderada): 22.50 W a 36.00 W
+  * Caminhada e sustentação padrão (250 mA a 400 mA por servo | 4.50 A a 7.20 A total)
+- Máxima (Carga Pesada - Próximo ao limite sem Stall): 67.50 W
+  * Esforço máximo simultâneo (750 mA por servo | 13.50 A total)
+
+[Módulo 3: Raspberry Pi 4 Model B]
+- Mínima:  2.50 W (Ociosa | ~0.50 A)
+- Média:   4.50 W (Processamento parcial | ~0.90 A)
+- Máxima: 10.00 W (Pico de Machine Learning + Câmera | ~2.00 A)
+
+[SISTEMA COMPLETO UNIFICADO (ESP32 + OLED + 18 Servos + Raspberry Pi 4)]
+- Potência Mínima do Sistema:  3.45 W 
+  * ESP em sleep, servos em standby e Rasp em idle (~0.69 A total)
+- Potência Média do Sistema (Caminhada Estabilizada / Carga Leve): 27.60 W a 41.10 W
+  * ESP e Rasp em uso moderado, servos sob dinâmica leve (~5.52 A a 8.22 A total)
+- Potência Máxima do Sistema (Todos os módulos em estresse): 81.50 W
+  * ESP em pico, Rasp a 100% de CPU e os 18 servos sob carga pesada (~16.30 A total)
+
+
+
+-------------------------------------------------------------------------------
+4. DIRETRIZES DE ALIMENTAÇÃO E BATERIA
+-------------------------------------------------------------------------------
+- Tipo de bateria sugerido: Banco de baterias de Li-Íon ou LiPo (Polímero de Lítio).
+- Configuração de montagem:
+  * Mínimo aceitável: Arranjo 2S2P (Duas células em série, duas em paralelo).
+  * Configuração Ideal: Arranjo 3S3P (Três células em série, três em paralelo) para garantir 
+    tensão estável para os reguladores e alta capacidade de descarga de corrente.
+
+[Cotação de Mercado de Células]
+- Modelo: Célula Recarregável 18650
+- Capacidade de referência: 5500 mAh por célula
+- Fornecedor pesquisado: Site "Lanterna Tática"
+- Valor estimado: R$ 23,00 por unidade
+===============================================================================
