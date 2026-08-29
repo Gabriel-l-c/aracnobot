@@ -1,5 +1,8 @@
-em /Documentos estão tanto a base teórica do projeto, como datasheets de todos os componentes usados e
-outros documentos relevantes
+## 📂 Documentação e Base Teórica
+
+Toda a pesquisa, manuais e especificações técnicas do projeto estão organizados no diretório de documentos:
+
+* **[Abrir Pasta de Documentos](./Documentos/)** — Acesso direto ao diretório principal.
 
 # 🕷️ Aracnobot - Estrutura de Tarefas
 
