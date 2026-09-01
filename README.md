@@ -1,15 +1,3 @@
-## 📂 Documentação e Base Teórica
-
-Toda a pesquisa, manuais e especificações técnicas do projeto estão organizados no diretório de documentos:
-
-* **[Documentos](./Documentos/)**
- 
-## 📂 Firmware e hardware
-
-Todo o desenvolvimento de locomoção, plataforma de programação, protocolos de comunicação, kicad, eletrônica estão
-no diretório Firmware e Hardware 
-* **[Firmware e Hardware](./Firmware%20e%20Hardware/)** 
-
 # 🕷️ Aracnobot - Estrutura de Tarefas
 
 ## ⚡ Eletrônica & Código Embarcado (Hardware & Firmware)
@@ -30,6 +18,11 @@ ou seja, 6 celulas, 3 pares), a descarga maxima das baterias deve ficar em 1.5C 
 alcançar a potência (carga pesada e motores travados, todos sendo usados de uma vez). Dentro disso, temos que 
 montar o firmware afim de nunca ultrapassar o consumo de 4.5A total, nao usar todas as patas de uma vez, carga leve, etc.
 
+  - [ ] Circuito do regulador dos motores. Cuidados e problemas:
+  A maior parte de potencia sera consumida pelos motores, logo e onde os reguladores vão trabalhar mais e onde mais energia
+  sera transformada em calor. Logo, uma pesquisa de reguladores ideias para a carga de tensão de entrada e corrente de saida
+  deve ser feita para iniciar o circuito. Reguladores sugestao: K7805, XL4015.
+ 
 - [ ] **Configuração Inicial do Código**
   - [ ] Configurar ambiente de desenvolvimento (PlatformIO, Arduino IDE ou ESP-IDF).
   - [ ] Mapear os pinos físicos da PCB criada para as definições de variáveis no código.
