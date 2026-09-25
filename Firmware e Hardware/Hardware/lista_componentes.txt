@@ -1,0 +1,39 @@
+Reguladores:
+
+L7805  - 10x
+
+
+
+Rasberrypi:
+4 model b
+3 model b+
+
+
+Esp:
+
+Esp32devkit u-v4
+Esp32 dev kit v1
+nanoEsp32-c6 v1.0 v1711
+
+
+Mosfet :
+IRFZ44N - 10x
+
+Diodo:
+zener:
+3V0, 3V3, 3V6, 4V7, 5V1, 5V6, 6V2, 10V, 12V, 13V, 15V, 18V, 27V, 30V
+
+BMS:
+2s 15w 1,5A  - v1342
+2s 10A - v813
+
+Switch: 
+SS12D00
+KCD1
+Connector:
+deans tipo t
+jst-rcy
+
+
+baterias: 
+3 packs de 2P - 3V7 4000mAh
